@@ -444,6 +444,7 @@ Year,Jahr,module,Magento_Braintree
 "Selected payment type is not allowed for billing country.","Ausgewählte Zahlungsart ist nicht zulässig. Überprüfen Sie bitte das Land Ihrer Rechnungsadresse.",module,Magento_Braintree
 "Incomplete payment information.","Unvollständige Zahlungsinformationen.",module,Magento_Braintree
 "Please try again later","Bitte versuchen Sie es später erneut",module,Magento_Braintree
+"Can not find original authorization transaction for partial capture","Konnte ursprüngliche Authorisierungstransaktion für Teilabbuchung nicht finden",module,Magento_Braintree
 "There was an error capturing the transaction: %1.","Fehler beim Erfassen der Transaktion: %1.",module,Magento_Braintree
 "This refund is for a partial amount but the Transaction has not settled.","Diese Erstattung ist für einen Teilbetrag, dessen Transaktion nicht beglichen wurde.",module,Magento_Braintree
 "Please wait 24 hours before trying to issue a partial refund.","Bitte warten Sie 24 Stunden bevor Sie versuchen eine anteilige Rückerstattung zu erstellen.",module,Magento_Braintree
@@ -1281,6 +1282,7 @@ Checkout,Kasse,module,Magento_Checkout
 "Shipping address is not set","Lieferadresse ist nicht festgelegt.",module,Magento_Checkout
 "Unable to save address. Please, check input data.","Die Adresse konnte nicht gespeichert werden. Bitte überprüfe deine Eingabe.",module,Magento_Checkout
 "Unable to save shipping information. Please, check input data.","Versandinformationen konnten nicht gespeichert werden. Bitte überprüfen Sie die Eingabe.",module,Magento_Checkout
+"Cart contains virtual product(s) only. Shipping address is not applicable.","Der Warenkorb enthält ausschließtlich virtuelle Produkt(e). Versandadresse ist nicht erforderlich.",module,Magento_Checkout
 "Invalid data","Ungültige Daten",module,Magento_Checkout
 "The customer address is not valid.","Die Kundenadresse ist ungültig.",module,Magento_Checkout
 "Invalid shipping method","Ungültige Versandmethode",module,Magento_Checkout
@@ -1495,6 +1497,7 @@ Summary,Zusammenfassung,module,Magento_ConfigurableProduct
 "Products ""%1"" and %2 have the same set of attribute values.","Produkte ""%1"" und %2 haben den gleichen Satz von Attributwerten.",module,Magento_ConfigurableProduct
 "You can't add the item to shopping cart.","Sie können dieses Produkt nicht dem Warenkorb hinzufügen.",module,Magento_ConfigurableProduct
 "You need to choose options for your item.","Sie müssen eine Optionen für Ihren Artikel wählen.",module,Magento_ConfigurableProduct
+"Configurable product ""%1"" do not have sub-products","Das Konfigurierbare Produkt ""%1"" hat keine Unterprodukte",module,Magento_ConfigurableProduct
 "Associated Products","Verknüpfte Produkte",module,Magento_ConfigurableProduct
 "Step 2: Attribute Values","Schritt 2: Attributwerte",module,Magento_ConfigurableProduct
 "Select values from each attribute to include in this product. Each unique combination of values creates a unigue product SKU.","Wählen Sie Werte aus jedem Attribute, das in diesem Artikel enthalten ist. Jede eindeutige Kombination von Werten erstellt eine eindeutige Artikelnummer.",module,Magento_ConfigurableProduct
@@ -1507,6 +1510,8 @@ Options,Optionen,module,Magento_ConfigurableProduct
 "Remove Option","Option entfernen",module,Magento_ConfigurableProduct
 "Create New Value","Neuen Wert erstellen",module,Magento_ConfigurableProduct
 "Step 3: Bulk Images, Price, and Quantity","Schritt 3: Massen-Bilder, Preis und Menge",module,Magento_ConfigurableProduct
+"Based on your selections <span class=""new-products-count"" data-bind=""text:countVariations""></span>
+        new products will be created. Use this step to customize images and price for your new products.","Entsprechend Ihrer Auswahl werden <span class=""new-products-count"" data-bind=""text:countVariations"">        neue Produkte erstellt. Nutzen Sie diesen Schritt, um Bilder und Preise Ihrer neuen Produkte anzupassen.",module,Magento_ConfigurableProduct
 Images,Bilder,module,Magento_ConfigurableProduct
 "Browse Files...","Dateien durchsuchen...",module,Magento_ConfigurableProduct
 "Remove image","Bild entfernen",module,Magento_ConfigurableProduct
@@ -2071,6 +2076,7 @@ Yes/No,URL,module,Magento_Eav
 """%1"" length must be equal or less than %2 characters.","""%1"" Länge muss gleich oder kleiner als %2 Zeichen sein.",module,Magento_Eav
 "Cannot save attributeGroup","Attribut-Gruppe kann nicht gespeichert werden",module,Magento_Eav
 "Cannot delete attributeGroup with id %1","Attribut-Gruppen-Element mit der Id %1 kann nicht gelöscht werden",module,Magento_Eav
+"The attribute code '%1' is reserved by system. Please try another attribute code","Der Attributcode '%1' ist vom System reserviert. Bitte versuchen Sie einen anderen Attributcode",module,Magento_Eav
 "Invalid default date","Ungültiges Standarddatum",module,Magento_Eav
 "Invalid entity supplied","Ungültige Entität angegeben",module,Magento_Eav
 "The value of attribute ""%1"" must be set","Der Wert des Attributs ""%1"" muss festgelegt werden",module,Magento_Eav
@@ -4065,6 +4071,7 @@ Environment,Umgebung,module,Magento_Braintree
 "Sort Order",Sortierreihenfolge,module,Magento_Braintree
 "Payment from Applicable Countries","Zahlung von bestimmten Ländern",module,Magento_Braintree
 "Payment from Specific Countries","Zahlung aus bestimmten Ländern",module,Magento_Braintree
+"Edit My Credit Cards","Meine Kreditkarten bearbeiten",module,Magento_Braintree
 "Enable CAPTCHA in Admin","CAPTCHA im Admin-Bereich aktivieren",module,Magento_Captcha
 Font,Schriftart,module,Magento_Captcha
 Forms,Formulare,module,Magento_Captcha
@@ -4287,8 +4294,11 @@ Enabled,Aktiviert,module,Magento_Directory
 Frequency,Häufigkeit,module,Magento_Directory
 "Start Time",Startzeit,module,Magento_Directory
 "Weight Unit",Gewichtseinheit,module,Magento_Directory
+"Entity types declaration cache.","Deklarations-Cache für Entity-Typen.",module,Magento_Eav
 Emails,E-Mails,module,Magento_Email
 "Logo Image",Logo,module,Magento_Email
+"Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","Erlaubte Dateitypen: jpg, jpeg, gif, png. Um das Logo für hochauflösende Displays zu optimieren, laden Sie ein Bild mit der dreifachen Originalgröße hoch und setzen Sie die einfachen Abmessungen in die folgenden Breite/Höhe-Felder ein.",module,Magento_Email
+"Only necessary if image has been uploaded above. Enter number of pixels, without appending ""px"".","Wird nur benötigt, wenn ein Bild oberhalb hochgeladen wurde. Geben Sie die Anzahl der Pixel ein, ohne folgendes ""px"".",module,Magento_Email
 "No Templates Found",Vorlagentyp,module,Magento_Email
 ID,Id,module,Magento_Email
 Added,Hinzugefügt,module,Magento_Email
