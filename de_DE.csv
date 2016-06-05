@@ -3055,6 +3055,7 @@ Enabled,Aktiviert,module,Magento_Directory
 "Error Email Recipient","Vorlage Fehler-E-Mail",module,Magento_Directory
 Frequency,Häufigkeit,module,Magento_Directory
 "Start Time",Startzeit,module,Magento_Directory
+"Entity types declaration cache.","Deklarations-Cache für Entity-Typen.",module,Magento_Eav
 "No Templates Found",Vorlagentyp,module,Magento_Email
 ID,Id,module,Magento_Email
 Added,Hinzugefügt,module,Magento_Email
