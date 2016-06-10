@@ -3676,7 +3676,7 @@ Yes,Ja,module,Magento_Variable
 "Operation allowed only in HTTPS","Standard-Schriftsatz für Antwort",module,Magento_Webapi
 "Cannot perform GET operation with store code 'all'","Kann GET Operation mit Store Code 'all' nicht ausführen",module,Magento_Webapi
 "Request does not match any route.","Abfrage entspricht keiner Route.",module,Magento_Webapi
-"Authentication header format is invalid.","Das Format des Authentifizierungsheaders ist ungültig.",module,Magento_Webapi
+"Authentication header format is invalid.","Authentifizierung Header-Format ist ungültig.",module,Magento_Webapi
 "Authentication header is absent.","Authentifizierungsheader fehlt.",module,Magento_Webapi
 "Not allowed parameters: %1. Please use only %2 and %3.","Der Parameter %1 ist nicht zugelassen. Bitte verwenden Sie nur %2 und %3.",module,Magento_Webapi
 "Requested service is not available: ""%1""","Der angeforderte Dienst ist nicht verfügbar: ""%1""",module,Magento_Webapi
@@ -4579,6 +4579,7 @@ Machinable,"Autom. Verarbeitbar",module,Magento_Usps
 "Sort Order",Sortierreihenfolge,module,Magento_Usps
 "SOAP Settings","SOAP Einstellungen",module,Magento_Webapi
 "Web Services Configuration",Web-Services-Konfiguration,module,Magento_Webapi
+"REST and SOAP configurations, generated WSDL file.","REST und SOAP Konfigurationen, generierte WSDL-Datei.",module,Magento_Webapi
 "Orders and Returns","Bestellungen und Rücksendungen",module,Magento_Widget
 "Anchor Custom Title","Individueller Link-Text",module,Magento_Widget
 "CMS Page Link Block Template","CMS-Seitenlink - Blockvorlage",module,Magento_Widget
