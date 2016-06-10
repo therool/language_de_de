@@ -3292,6 +3292,7 @@ Machinable,"Autom. Verarbeitbar",module,Magento_Usps
 "Sort Order",Sortierreihenfolge,module,Magento_Usps
 "SOAP Settings","SOAP Einstellungen",module,Magento_Webapi
 "Web Services Configuration",Web-Services-Konfiguration,module,Magento_Webapi
+"REST and SOAP configurations, generated WSDL file.","REST und SOAP Konfigurationen, generierte WSDL-Datei.",module,Magento_Webapi
 "Widget ID",Widget-ID,module,Magento_Widget
 "Email Sender",E-Mail-Absender,module,Magento_Wishlist
 "Email Template",E-Mail-Vorlage,module,Magento_Wishlist
