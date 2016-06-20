@@ -1480,15 +1480,18 @@ No,Keine,module,Magento_EncryptionKey
 Yes,Ja,module,Magento_EncryptionKey
 "The generated key will be displayed after changing.","Der generierte Schlüssel werden nach dem ändern angezeigt.",module,Magento_EncryptionKey
 "New Key","Neuer Schlüssel",module,Magento_EncryptionKey
+"Please enter an encryption key.","Bitte geben Sie einen Verschlüsselungsschlüssel.",module,Magento_EncryptionKey
 "The encryption key has been changed.","Der Sicherheitsschlüssel wurde geändert.",module,Magento_EncryptionKey
 "Europe First Priority","Ihre Verpackung",module,Magento_Fedex
 "1 Day Freight","Lieferung am nächsten Tag",module,Magento_Fedex
 "2 Day Freight","Lieferung in 2 Tagen",module,Magento_Fedex
 "2 Day","2 Tage",module,Magento_Fedex
+"2 Day AM","2 Tag AM",module,Magento_Fedex
 "3 Day Freight","Lieferung in drei Tagen",module,Magento_Fedex
 "Express Saver",Expresslieferung,module,Magento_Fedex
 Ground,Erdgeschoss,module,Magento_Fedex
 "Home Delivery",Hauszustellung,module,Magento_Fedex
+"International Economy","Internationale Economy",module,Magento_Fedex
 "Standard Overnight","Standard Overnight Lieferung",module,Magento_Fedex
 Freight,Fracht,module,Magento_Fedex
 "Regular Pickup","Normale Abholung",module,Magento_Fedex
@@ -1547,6 +1550,7 @@ Import,Importieren,module,Magento_ImportExport
 Import/Export,Importieren/Exportieren,module,Magento_ImportExport
 "Import successfully done","Import erfolgreich durchgeführt",module,Magento_ImportExport
 "in rows:","in den Zeilen:",module,Magento_ImportExport
+"in rows","in den Zeilen",module,Magento_ImportExport
 "-- Please Select --","--Bitte auswählen--",module,Magento_ImportExport
 label,Kennzeichen,module,Magento_ImportExport
 Add/Update,Hinzufügen/Aktualisieren,module,Magento_ImportExport
@@ -1600,6 +1604,7 @@ Previous,Zurück,module,Magento_LayeredNavigation
 "Platinum Partners",Platin-Partner,module,Magento_Marketplace
 "Featured Platinum Partners","Vorgestellte Platinum Partner",module,Magento_Marketplace
 "Partner search",Partnersuche,module,Magento_Marketplace
+"Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","Magento hat ein blühendes Ökosystem von Technologiepartnern, um Händler und Marken zu helfen, die besten Kunden Erfahrungen liefern zu können. Sie sind anerkannte Experten im e-Commerce-, Suche, E-Mail-Marketing, Zahlungen, Steuer, Betrug, Optimierung und Analyse, Erfüllung und mehr. Besuchen Sie die Magento-Partner-Verzeichnis, um aller unserer bewährten Partner anzusehen.",module,Magento_Marketplace
 "More Partners","Weitere Partner",module,Magento_Marketplace
 "Extensions and Themes are an essential component of the Magento Ecosystem. Please visit the Magento Marketplace to see the latest innovations that developers have created to enhance your Magento Store.","Erweiterungen und Themes sind ein wesentlicher Bestandteil des Magento Ökosystems. Bitte besuchen Sie die Magento Marketplace, um die neuesten Innovationen zu sehen, die Entwickler erstellt haben, um Ihren Magento Store zu verbessern.",module,Magento_Marketplace
 "Visit Magento Marketplaces","Besuchen Sie Magento Marketplaces",module,Magento_Marketplace
@@ -1660,6 +1665,7 @@ Reset,Zurücksetzen,module,Magento_Newsletter
 "View Newsletter","Newsletter anzeigen",module,Magento_Newsletter
 "Edit Newsletter","Newsletter bearbeiten",module,Magento_Newsletter
 "Queue Information",Warteschlangen-Informationen,module,Magento_Newsletter
+"Queue Date Start","Warteschlange Datum Start",module,Magento_Newsletter
 "Subscribers From","Abonnenten von",module,Magento_Newsletter
 Subject,Betreff,module,Magento_Newsletter
 "Sender Name",Absendername,module,Magento_Newsletter
@@ -1804,6 +1810,7 @@ Close,Schließen,module,Magento_Paypal
 Reports,Berichte,module,Magento_Paypal
 Sales,Verkäufe,module,Magento_Paypal
 "Please agree to all the terms and conditions before placing the order.","Bitte lesen und akzeptieren Sie alle AGB, bevor Sie Ihre Bestellung aufgeben.",module,Magento_Paypal
+"PayPal response hasn't required fields.","PayPal Antwort hat keine erforderliche Felder.",module,Magento_Paypal
 Active,Aktiv,module,Magento_Paypal
 Canceled,Storniert,module,Magento_Paypal
 Dynamic,Dynamisch,module,Magento_Paypal
@@ -2532,6 +2539,7 @@ Product:,Produkt:,module,Magento_UrlRewrite
 ID,Id,module,Magento_UrlRewrite
 SKU,Artikelnummer,module,Magento_UrlRewrite
 "Edit URL Rewrite for CMS page","URL-Rewrite für CMS Seite bearbeiten",module,Magento_UrlRewrite
+"Add URL Rewrite for CMS page","URL-Rewrite für CMS-Seite hinzufügen",module,Magento_UrlRewrite
 "CMS page:",CMS-Seite:,module,Magento_UrlRewrite
 Title,Titel,module,Magento_UrlRewrite
 "URL Key",URL-Bezeichner,module,Magento_UrlRewrite
@@ -2547,6 +2555,7 @@ Save,Speichern,module,Magento_UrlRewrite
 "URL Rewrite Information","Informationen zu URL-Rewrite",module,Magento_UrlRewrite
 "Request Path","Pfad anfordern",module,Magento_UrlRewrite
 "Target Path",Zielpfad,module,Magento_UrlRewrite
+"Redirect Type",Umleitung-Typ,module,Magento_UrlRewrite
 Description,Beschreibung,module,Magento_UrlRewrite
 "URL Rewrite Management","URL-Rewrite Management",module,Magento_UrlRewrite
 "Add URL Rewrite","URL-Rewrite hinzufügen",module,Magento_UrlRewrite
@@ -2613,18 +2622,53 @@ All,Alle,module,Magento_User
 "First-Class Mail Parcel","First Class Mail Paket",module,Magento_Usps
 "First-Class Mail Postcards","First-Class Mail Postkarten",module,Magento_Usps
 "Priority Mail Express Hold For Pickup","Priority Mail Express zurückhalten für Abholung",module,Magento_Usps
+"Priority Mail Large Flat Rate Box","Priorität Post große Pauschale Box",module,Magento_Usps
+"Priority Mail Express Sunday/Holiday Delivery Flat Rate Envelope","Priority Mail Express Sonntag/Feiertag Lieferung Pauschale Umschlag",module,Magento_Usps
+"Priority Mail Express Flat Rate Envelope Hold For Pickup","Priority Mail Express Pauschale Umschlag zur Abholung halten",module,Magento_Usps
+"Priority Mail Small Flat Rate Box","Priority Mail Pauschale kleine Box",module,Magento_Usps
+"Priority Mail Padded Flat Rate Envelope","Priority Mail gepolsterter Pauschale Umschlag",module,Magento_Usps
+"Priority Mail Express Legal Flat Rate Envelope","Priority Mail Express rechtlicher Pauschale Umschlag",module,Magento_Usps
+"Priority Mail Express Legal Flat Rate Envelope Hold For Pickup","Priority Mail Express rechtlicher Pauschale Umschlag zur Abholung halten",module,Magento_Usps
+"Priority Mail Express Sunday/Holiday Delivery Legal Flat Rate Envelope","Priority Mail Express Sonntag/Feiertag Lieferung rechtliche Pauschale Umschlag",module,Magento_Usps
+"Priority Mail Hold For Pickup","Priority Mail zur Abholung halten",module,Magento_Usps
+"Priority Mail Large Flat Rate Box Hold For Pickup","Priorität Post große Pauschale Box zur Abholung halten",module,Magento_Usps
+"Priority Mail Medium Flat Rate Box Hold For Pickup","Priorität Post mittlere Pauschale Box zur Abholung halten",module,Magento_Usps
+"Priority Mail Small Flat Rate Box Hold For Pickup","Priorität Post kleine Pauschale Box zur Abholung halten",module,Magento_Usps
+"Priority Mail Flat Rate Envelope Hold For Pickup","Priorität Mail Pauschale Umschlag zur Abholung halten",module,Magento_Usps
+"Priority Mail Gift Card Flat Rate Envelope","Priorität Post Geschenk Karte Pauschale Umschlag",module,Magento_Usps
+"Priority Mail Gift Card Flat Rate Envelope Hold For Pickup","Priorität Post Geschenk Karte Pauschale Umschlag zur Abholung halten",module,Magento_Usps
+"Priority Mail Window Flat Rate Envelope","Priority Mail Fensterumschlag Pauschale",module,Magento_Usps
+"Priority Mail Window Flat Rate Envelope Hold For Pickup","Priority Mail Fenster Flatrate Umschlag zur Abholung halten",module,Magento_Usps
+"Priority Mail Small Flat Rate Envelope","Priority Mail kleiner Pauschale Umschlag",module,Magento_Usps
+"Priority Mail Small Flat Rate Envelope Hold For Pickup","Priorität Post kleiner Pauschale Umschlag zur Abholung halten",module,Magento_Usps
+"Priority Mail Legal Flat Rate Envelope","Priority Mail rechtlicher Pauschale Umschlag",module,Magento_Usps
+"Priority Mail Legal Flat Rate Envelope Hold For Pickup","Priorität Post rechtlicher Pauschale Umschlag zur Abholung halten",module,Magento_Usps
+"Priority Mail Padded Flat Rate Envelope Hold For Pickup","Priority Mail gepolsterter Pauschale Umschlag zur Abholung halten",module,Magento_Usps
+"Priority Mail Regional Rate Box A","Regionale Rate Mail Priorität A",module,Magento_Usps
+Letter,Brief,module,Magento_Usps
+Flat,Linear,module,Magento_Usps
+"Flat-Rate Box","Pauschale Box",module,Magento_Usps
+"Flat-Rate Envelope","Pauschale Umschlag",module,Magento_Usps
+Rectangular,Rechteckig,module,Magento_Usps
+Non-rectangular,Nicht-rechteckige,module,Magento_Usps
 Regular,Standard,module,Magento_Usps
+Large,Groß,module,Magento_Usps
 Yes,Ja,module,Magento_Usps
 No,Keine,module,Magento_Usps
 "Not Required","Pakete Anfragetyp",module,Magento_Usps
 Required,Erforderlich,module,Magento_Usps
+track_summary,Verfolgungskurzfassung,module,Magento_Usps
 "Empty response","Leere Antwort",module,Magento_Usps
+"Service type does not match","Service-Typ stimmt nicht überein",module,Magento_Usps
+Merchandise,Ware,module,Magento_Usps
 Sample,Beispiel,module,Magento_Usps
+Gift,Geschenk,module,Magento_Usps
 Documents,Dokumente,module,Magento_Usps
 Return,Zurück,module,Magento_Usps
 None,Keine,module,Magento_Usps
 "Custom Variables","Eigene Variablen",module,Magento_Variable
 "Variable Code must be unique.","Variablen-Code muss eindeutig sein.",module,Magento_Variable
+"Validation has failed.","Fehler bei der Überprüfung.",module,Magento_Variable
 "Insert Variable...","Füge Variable ein …",module,Magento_Variable
 "Operation allowed only in HTTPS","Standard-Schriftsatz für Antwort",module,Magento_Webapi
 "Request does not match any route.","Abfrage entspricht keiner Route.",module,Magento_Webapi
@@ -2639,8 +2683,10 @@ None,Keine,module,Magento_Usps
 "We found a duplicate of website, country and state fields for a fixed product tax","Duplikat der Felder Webseite, Land und Staat für eine feste Produktsteuer gefunden",module,Magento_Weee
 "Including FPT only","Ausschließlich inklusive FPT",module,Magento_Weee
 "Including FPT and FPT description","Einschließlich FPT und FPT-Beschreibung",module,Magento_Weee
+"Excluding FPT. Including FPT description and final price","FPT ausschließen. FPT-Beschreibung und Endpreis einschließlen",module,Magento_Weee
 "Excluding FPT","Exklusive FPT",module,Magento_Weee
 "Fixed Product Tax","Feste Produktsteuer",module,Magento_Weee
+Country/State,Land/Bundesland,module,Magento_Weee
 Tax,Steuer,module,Magento_Weee
 Action,Aktion,module,Magento_Weee
 "Widget Insertion","Widget einfügen",module,Magento_Widget
@@ -2658,14 +2704,17 @@ Close,Schließen,module,Magento_Widget
 "Page Layouts",Seitenlayout,module,Magento_Widget
 "Please Select Container First","Bitte wählen Sie zuerst einen Container",module,Magento_Widget
 Type,Art,module,Magento_Widget
+"Design Package/Theme","Design Paket/Oberfläche",module,Magento_Widget
 "Assign to Store Views","Hinzufügen zu Store Views",module,Magento_Widget
 "Sort Order",Sortierreihenfolge,module,Magento_Widget
+"Sort Order of widget instances in the same container","Reihenfolge der Widget-Instanzen in dem gleichen Container sortieren",module,Magento_Widget
 "Layout Updates","Layout Aktualisierungen",module,Magento_Widget
 Categories,Kategorien,module,Magento_Widget
 "Anchor Categories",Anker-Kategorien,module,Magento_Widget
 "Non-Anchor Categories",Nicht-Anker-Kategorien,module,Magento_Widget
 "All Product Types","Alle Produkttypen",module,Magento_Widget
 Products,Artikel,module,Magento_Widget
+"Generic Pages","Allgemeine Seiten",module,Magento_Widget
 "All Pages","Alle Seiten",module,Magento_Widget
 "Specified Page","Ausgewählte Seiten",module,Magento_Widget
 "Add Layout Update","Layout Update hinzufügen",module,Magento_Widget
@@ -2675,6 +2724,7 @@ Settings,Einstellungen,module,Magento_Widget
 Continue,Fortsetzen,module,Magento_Widget
 "Please specify a Widget Type.","Bitte wählen Sie einen Widget-Typen.",module,Magento_Widget
 "Please specify a correct widget.","Bitte wählen Sie einen korrekten Widget-Typen.",module,Magento_Widget
+"The widget instance has been deleted.","Die Widget-Instanz wurde gelöscht.",module,Magento_Widget
 "New Widget","Neues Widget",module,Magento_Widget
 "The widget instance has been saved.","Die Widget-Instanz wurde gespeichert.",module,Magento_Widget
 name,Name,module,Magento_Widget
@@ -2682,6 +2732,7 @@ description,Beschreibung,module,Magento_Widget
 "We cannot create the widget instance because it is missing required information.","Die Widget-Instanz kann nicht erstellt werden, weil benötigte Informationen fehlen.",module,Magento_Widget
 Template,Vorlage,module,Magento_Widget
 All,Alle,module,Magento_Widget
+"Specific %1","Spezifisch %1",module,Magento_Widget
 "Open Chooser","Öffne Auswahlmöglichkeit",module,Magento_Widget
 Apply,Anwenden,module,Magento_Widget
 Page,Seite,module,Magento_Widget
@@ -2699,6 +2750,8 @@ Page,Seite,module,Magento_Widget
 Comment,Kommentar,module,Magento_Wishlist
 "Display number of items in wish list","Zeige Anzahl der Produkte in der Wunschliste",module,Magento_Wishlist
 "Display item quantities","Zeige Artikelanzahl",module,Magento_Wishlist
+"Cannot specify product.","Produkt kann nicht angegeben werden.",module,Magento_Wishlist
+"Invalid item option format.","Ungültiges Artikel-Option-Format.",module,Magento_Wishlist
 "%1 for ""%2"".","%1 für ""%2"".",module,Magento_Wishlist
 "%1 product(s) have been added to shopping cart: %2.","%1 Produkt(e) wurden Ihrem Einkaufswagen hinzugefügt: %2.",module,Magento_Wishlist
 "The product does not exist.","Der Artikel existiert nicht.",module,Magento_Wishlist
@@ -2716,8 +2769,11 @@ Edit,Bearbeiten,module,Magento_Wishlist
 "Remove item","Artikel entfernen",module,Magento_Wishlist
 "Add to Compare","Zur Vergleichsliste hinzufügen",module,Magento_Wishlist
 "This Wish List has no Items","Diese Wunschliste enthält keine Artikel",module,Magento_Wishlist
+"Options Details",Optionen-Details,module,Magento_Wishlist
+"RSS link to %1's wishlist","RSS-Link zu %1's Wunschliste",module,Magento_Wishlist
 "RSS Feed",RSS-Feed,module,Magento_Wishlist
 Back,Zurück,module,Magento_Wishlist
+"Wish List is empty now.","Die Wunschliste ist nun leer.",module,Magento_Wishlist
 "* Required Fields","* Pflichtfelder",module,Magento_Wishlist
 "Sharing Information",Verteilungsinformationen,module,Magento_Wishlist
 "Email addresses, separated by commas","E-Mail-Adressen, getrennt durch Komma",module,Magento_Wishlist
@@ -3076,6 +3132,7 @@ Password,Passwort,module,Magento_Fedex
 "Google AdWords","Google Adwords",module,Magento_GoogleAdwords
 Enable,Aktivieren,module,Magento_GoogleAdwords
 "Conversion Format",Umwandlungsformat,module,Magento_GoogleAdwords
+"Conversion Label",Umbau-Label,module,Magento_GoogleAdwords
 "Conversion Value Type","Umwandlungswert Typ",module,Magento_GoogleAdwords
 Enable,Aktivieren,module,Magento_GoogleAnalytics
 "Account Number",Kundenkontonummer,module,Magento_GoogleAnalytics
@@ -3083,6 +3140,8 @@ Enable,Aktivieren,module,Magento_GoogleAnalytics
 Description,Beschreibung,module,Magento_Indexer
 Mode,Modus,module,Magento_Indexer
 Updated,Aktualisiert,module,Magento_Indexer
+"Integration configuration file.",Integrationskonfigurationsdatei.,module,Magento_Integration
+"No Integrations Found","Keine Integrationen gefunden",module,Magento_Integration
 "Display Product Count","Produkt-Anzahl anzeigen",module,Magento_LayeredNavigation
 Options,Optionen,module,Magento_Multishipping
 "Queue Subject","Betreff der Warteschlange",module,Magento_Newsletter
@@ -3136,10 +3195,12 @@ Import,Importieren,module,Magento_OfflineShipping
 "Payment Methods",Zahlungsarten,module,Magento_Payment
 "Accept payments with a completely customizable checkout page.","Akzpetieren Sie Zahlungen mit einem angepasst gestalteten Zahlungsvorgang.",module,Magento_Paypal
 "API Password","API Passwort",module,Magento_Paypal
+"Sandbox Credentials","Sandkasten Anmeldeinformationen",module,Magento_Paypal
 "Sandbox Mode","Sandbox Modus",module,Magento_Paypal
 Position,Reihenfolge,module,Magento_Paypal
 Size,Größe,module,Magento_Paypal
 Title,Titel,module,Magento_Paypal
+"It is recommended to set this value to ""Magento_Paypal"" per store views.","Es ist zu empfehlen, diesen Wert auf ""Magento_Paypal"" mit Store Views festzulegen.",module,Magento_Paypal
 "Sort Order",Sortierreihenfolge,module,Magento_Paypal
 "Payment Action",Zahlungsvorgang,module,Magento_Paypal
 "Advanced Settings","Erweiterte Einstellungen",module,Magento_Paypal
@@ -3161,6 +3222,8 @@ User,Benutzer,module,Magento_Paypal
 Frequency,Häufigkeit,module,Magento_ProductAlert
 "Start Time",Startzeit,module,Magento_ProductAlert
 "Error Email Recipient","Vorlage Fehler-E-Mail",module,Magento_ProductAlert
+"Sign up for price alert","Bitte melden Sie sich für Preisalarm an",module,Magento_ProductAlert
+"Sign up to be notified when this product is back in stock.","Melden Sie sich an, um benachrichtigt zu werden, sobald dieses Produkt wieder vorrätig ist.",module,Magento_ProductAlert
 Dashboard,Übersicht,module,Magento_Reports
 "Recently Compared Products","Zuletzt angesehene Artikel",module,Magento_Reports
 Average,Durchschnitt,module,Magento_Reports
@@ -3291,9 +3354,20 @@ Machinable,"Autom. Verarbeitbar",module,Magento_Usps
 "Ship to Specific Countries","Versand zu bestimmten Ländern",module,Magento_Usps
 "Sort Order",Sortierreihenfolge,module,Magento_Usps
 "SOAP Settings","SOAP Einstellungen",module,Magento_Webapi
+"Default Response Charset",Standard-Antwort-Charset,module,Magento_Webapi
+"If empty, UTF-8 will be used.","Wenn leer, UTF-8 wird verwendet.",module,Magento_Webapi
 "Web Services Configuration",Web-Services-Konfiguration,module,Magento_Webapi
 "REST and SOAP configurations, generated WSDL file.","REST und SOAP Konfigurationen, generierte WSDL-Datei.",module,Magento_Webapi
+"Fixed Product Taxes","Feste Produktsteuer",module,Magento_Weee
+"Enable FPT","FPT aktivieren",module,Magento_Weee
+"Display Prices In Product Lists","Preise in Produktlisten anzeigen",module,Magento_Weee
+"Display Prices On Product View Page","Preise auf der Produktseite anzeigen",module,Magento_Weee
+"Display Prices In Sales Modules","Preise in Verkaufsmodulen anzeigen",module,Magento_Weee
+"Display Prices In Emails","Preise in E-Mails anzeigen",module,Magento_Weee
+"Apply Tax To FPT","Steuer auf FPT anwenden",module,Magento_Weee
+"Include FPT In Subtotal","FPT in der Zwischensumme einschließen",module,Magento_Weee
 "Widget ID",Widget-ID,module,Magento_Widget
+"Share Options","Optionen teilen",module,Magento_Wishlist
 "Email Sender",E-Mail-Absender,module,Magento_Wishlist
 "Email Template",E-Mail-Vorlage,module,Magento_Wishlist
 "Max Emails Allowed to be Sent","Maximale Anzahl Mails, die gesendet werden dürfen",module,Magento_Wishlist
