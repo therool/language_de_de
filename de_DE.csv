@@ -2276,9 +2276,11 @@ Ready,Bereit,module,Magento_Indexer
 Processing,Verarbeitung,module,Magento_Indexer
 Never,Niemals,module,Magento_Indexer
 "Index Management",Indexverwaltung,module,Magento_Indexer
+"Please select indexers.","Bitte Indexer auswählen.",module,Magento_Indexer
 "%1 indexer(s) are in ""Update by Schedule"" mode.","%1 Indexer sind im ""Update by Schedule"" Modus.",module,Magento_Indexer
 "We couldn't change indexer(s)' mode because of an error.","Der Modus für den/die Indexer konnte infolge eines Fehlers nicht geändert werden.",module,Magento_Indexer
 "%1 indexer(s) are in ""Update on Save"" mode.","%1 Indexer sind im ""Update on Save"" Modus.",module,Magento_Indexer
+"One or more <a href=""%1"">indexers are invalid</a>. Make sure your <a href=""%2"" target=""_blank"">Magento cron job</a> is running.","Einer oder mehrere <a href=""%1"">Indexer sind wirkungslos</a>. Stellen Sie sicher, dass Ihr <a href=""%2"" target=""_blank"">Magento-Cron-Job</a> ausgeführt wird.",module,Magento_Indexer
 "State for the same indexer","Status für den gleichen Indexer",module,Magento_Indexer
 "Some Exception Message","Irgendeine Fehlermeldung",module,Magento_Indexer
 Integrations,OAuth,module,Magento_Integration
@@ -2345,6 +2347,7 @@ Partners,Partner,module,Magento_Marketplace
 "Visit Magento Marketplaces","Besuchen Sie Magento Marketplaces",module,Magento_Marketplace
 "Read More","Lesen Sie mehr",module,Magento_Marketplace
 "Partner Page",Partnerseite,module,Magento_Marketplace
+"No partners were found","Es wurden keine Partner gefunden",module,Magento_Marketplace
 Synchronize,"Falsches Datei Info Format",module,Magento_MediaStorage
 "Synchronizing %1 to %2","Synchronisieren von %1 bis %2",module,Magento_MediaStorage
 Synchronizing...,Synchronisiere...,module,Magento_MediaStorage
@@ -4063,7 +4066,7 @@ Pagination,Paginierung,module,Magento_Backend
 "How many links to display at once.","Wie viele Links auf einmal angezeigen.",module,Magento_Backend
 "If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.","Wenn die aktuelle Rahmenposition die größten Seiten nicht abdeckt, wird der Link zur aktuellen Position plus/minus dieses Wertes gerendert.",module,Magento_Backend
 "Anchor Text for Previous","Anchor-Text für Vorherige",module,Magento_Backend
-"Alternative text for previous link in pagination menu. If empty, default arrow image will used.","Alternativer Text für zurück-Link im Menü für die Seitennummerierung. Wenn leer, wird vorgegebene Pfeil-Grafik verwendet.",module,Magento_Backend
+"Alternative text for previous link in pagination menu. If empty, default arrow image will used.","Alternativer Text für ""zurück""-Link im Menü für die Seitennummerierung. Wenn leer, wird vorgegebene Pfeil-Grafik verwendet.",module,Magento_Backend
 "Anchor Text for Next","Anchor-Text für Nachfolgende",module,Magento_Backend
 "Alternative text for next link in pagination menu. If empty, default arrow image will used.","Alternativer Text für ""weiter""-Link im Menü für die Seitennummerierung. Wenn leer, wird vorgegebene Pfeil-Grafik verwendet.",module,Magento_Backend
 Developer,Entwickler,module,Magento_Backend
@@ -4077,7 +4080,7 @@ Developer,Entwickler,module,Magento_Backend
 "Enabled for Admin","Für Admin aktiviert",module,Magento_Backend
 "JavaScript Settings",JavaScript-Einstellungen,module,Magento_Backend
 "Merge JavaScript Files","JavaScript-Dateien zusammenführen",module,Magento_Backend
-"Enable Javascript Bundling","Javascript Bundling aktivieren",module,Magento_Backend
+"Enable Javascript Bundling","Javascript-Bundling aktivieren",module,Magento_Backend
 "Minify JavaScript Files","JavaScript-Dateien verkleinern",module,Magento_Backend
 "CSS Settings","CSS Einstellungen",module,Magento_Backend
 "Merge CSS Files","CSS-Dateien zusammenführen",module,Magento_Backend
