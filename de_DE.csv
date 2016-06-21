@@ -1973,9 +1973,11 @@ Ready,Bereit,module,Magento_Indexer
 Processing,Verarbeitung,module,Magento_Indexer
 Never,Niemals,module,Magento_Indexer
 "Index Management",Indexverwaltung,module,Magento_Indexer
+"Please select indexers.","Bitte Indexer auswählen.",module,Magento_Indexer
 "%1 indexer(s) are in ""Update by Schedule"" mode.","%1 Indexer sind im ""Update by Schedule"" Modus.",module,Magento_Indexer
 "We couldn't change indexer(s)' mode because of an error.","Der Modus für den/die Indexer konnte infolge eines Fehlers nicht geändert werden.",module,Magento_Indexer
 "%1 indexer(s) are in ""Update on Save"" mode.","%1 Indexer sind im ""Update on Save"" Modus.",module,Magento_Indexer
+"One or more <a href=""%1"">indexers are invalid</a>. Make sure your <a href=""%2"" target=""_blank"">Magento cron job</a> is running.","Einer oder mehrere <a href=""%1"">Indexer sind wirkungslos</a>. Stellen Sie sicher, dass Ihr <a href=""%2"" target=""_blank"">Magento-Cron-Job</a> ausgeführt wird.",module,Magento_Indexer
 "State for the same indexer","Status für den gleichen Indexer",module,Magento_Indexer
 "Some Exception Message","Irgendeine Fehlermeldung",module,Magento_Indexer
 Integrations,OAuth,module,Magento_Integration
@@ -2036,6 +2038,7 @@ Partners,Partner,module,Magento_Marketplace
 "Visit Magento Marketplaces","Besuchen Sie Magento Marketplaces",module,Magento_Marketplace
 "Read More","Lesen Sie mehr",module,Magento_Marketplace
 "Partner Page",Partnerseite,module,Magento_Marketplace
+"No partners were found","Es wurden keine Partner gefunden",module,Magento_Marketplace
 Synchronize,"Falsches Datei Info Format",module,Magento_MediaStorage
 "Synchronizing %1 to %2","Synchronisieren von %1 bis %2",module,Magento_MediaStorage
 Synchronizing...,Synchronisiere...,module,Magento_MediaStorage
