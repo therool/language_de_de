@@ -680,6 +680,7 @@ Hidden,Versteckt,module,Magento_Catalog
 "Images (.gif, .jpg, .png)","Sichtbare abwählen",module,Magento_Catalog
 "Add New Images","Neue Bilder hinzufügen",module,Magento_Catalog
 "Inc. Tax","Inkl. Steuern",module,Magento_Catalog
+"Does this have a weight?","Hat es ein Gewicht?",module,Magento_Catalog
 Product,Produkt,module,Magento_Catalog
 "Notify Low Stock RSS","RSS-Benachrichtigung bei niedrigem Lagerbestand",module,Magento_Catalog
 Home,Startseite,module,Magento_Catalog
@@ -2158,6 +2159,7 @@ Coupons,Gutscheine,module,Magento_Sales
 From,Von,module,Magento_Sales
 To,Bis,module,Magento_Sales
 Message,Nachricht,module,Magento_Sales
+"Create New Order for New Customer in %1","Erstelle eine neue Bestellung für neuen Kunden in %1",module,Magento_Sales
 "Items Ordered","Bestellte Artikel",module,Magento_Sales
 "%1 with %2 discount each","%1 mit jeweils %2 Rabatt",module,Magento_Sales
 "%1 for %2","%1 für %2",module,Magento_Sales
