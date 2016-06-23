@@ -742,6 +742,7 @@ Hidden,Versteckt,module,Magento_Catalog
 "Images (.gif, .jpg, .png)","Sichtbare abwählen",module,Magento_Catalog
 "Add New Images","Neue Bilder hinzufügen",module,Magento_Catalog
 "Inc. Tax","Inkl. Steuern",module,Magento_Catalog
+"Does this have a weight?","Hat es ein Gewicht?",module,Magento_Catalog
 Product,Produkt,module,Magento_Catalog
 "Notify Low Stock RSS","RSS-Benachrichtigung bei niedrigem Lagerbestand",module,Magento_Catalog
 "Low Stock Products","Produkte mit niedrigem Lagerbestand",module,Magento_Catalog
@@ -3075,7 +3076,9 @@ Rate,Satz,module,Magento_TaxImportExport
 "Invalid file upload attempt","Ungültiger Datei-Upload-Versuch",module,Magento_TaxImportExport
 "Invalid file upload attempt.","Ungültiger Datei-Upload-Versuch.",module,Magento_TaxImportExport
 "Invalid file format.","Ungültiges Dateiformat.",module,Magento_TaxImportExport
+"One of the countries has invalid code.","Eines der Länder hat einen ungültigen Code.",module,Magento_TaxImportExport
 "Import Tax Rates",Importsteuersätze,module,Magento_TaxImportExport
+"Export Tax Rates","Steuersätze exportieren",module,Magento_TaxImportExport
 "Tax Rate Information","Ja (nur Preis inkl. Steuer)",module,Magento_Tax
 "Tax Identifier",Steueridentifikator,module,Magento_Tax
 "Zip/Post is Range","Nur für bestimmte Postleitzahlen",module,Magento_Tax
@@ -3571,6 +3574,7 @@ Password:,Passwort:,theme,frontend/Magento/luma
 "Add Products to New Option","Füge Artikel zur neuen Option hinzu",module,Magento_Bundle
 "Add Products to Option ""%1""","Füge Artikel zur Option ""%1"" hinzu",module,Magento_Bundle
 "Add Selected Products","Füge ausgewählte Artikel hinzu",module,Magento_Bundle
+"Warning message",Warnmeldung,module,Magento_Catalog
 Cancel,Speichern,module,Magento_Catalog
 Submit,Absenden,module,Magento_Catalog
 "New Option","Neue Option",module,Magento_Catalog
