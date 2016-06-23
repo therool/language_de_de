@@ -888,6 +888,7 @@ Hidden,Versteckt,module,Magento_Catalog
 "Images (.gif, .jpg, .png)","Sichtbare abwählen",module,Magento_Catalog
 "Add New Images","Neue Bilder hinzufügen",module,Magento_Catalog
 "Inc. Tax","Inkl. Steuern",module,Magento_Catalog
+"Does this have a weight?","Hat es ein Gewicht?",module,Magento_Catalog
 Product,Produkt,module,Magento_Catalog
 "Notify Low Stock RSS","RSS-Benachrichtigung bei niedrigem Lagerbestand",module,Magento_Catalog
 "Low Stock Products","Produkte mit niedrigem Lagerbestand",module,Magento_Catalog
@@ -3036,6 +3037,7 @@ Coupons,Gutscheine,module,Magento_Sales
 From,Von,module,Magento_Sales
 To,Bis,module,Magento_Sales
 Message,Nachricht,module,Magento_Sales
+"Create New Order for New Customer in %1","Erstelle eine neue Bestellung für neuen Kunden in %1",module,Magento_Sales
 "Items Ordered","Bestellte Artikel",module,Magento_Sales
 "%1 with %2 discount each","%1 mit jeweils %2 Rabatt",module,Magento_Sales
 "%1 for %2","%1 für %2",module,Magento_Sales
@@ -3166,6 +3168,8 @@ State/Province,Bundesland,module,Magento_Sales
 "Street Address",Straße,module,Magento_Sales
 "Phone Number",Telefonnummer,module,Magento_Sales
 "Zip/Postal Code",PLZ,module,Magento_Sales
+"Cannot save comment:
+%1","Kommentar konnte nicht gespeichert werden: %1",module,Magento_Sales
 Processing,Verarbeitung,module,Magento_Sales
 Closed,Geschlossen,module,Magento_Sales
 New,Neu,module,Magento_Sales
@@ -3185,6 +3189,7 @@ Remove,Entfernen,module,Magento_Sales
 "Order Total",Bestellsumme,module,Magento_Sales
 "Add New Address","Neue Adresse hinzufügen",module,Magento_Sales
 "Save in address book","Im Adressbuch speichern",module,Magento_Sales
+"You don't need to select a shipping address.","Es muss keine Versandadresse ausgewählt werden.",module,Magento_Sales
 "Gift Message for the Entire Order","Geschenknachricht für die komplette Bestellung",module,Magento_Sales
 "Row Subtotal","Zeilen Zwischensumme",module,Magento_Sales
 Action,Aktion,module,Magento_Sales
@@ -3199,6 +3204,7 @@ Subtotal:,Zwischensumme:,module,Magento_Sales
 "Move to Wish List","Auf die Wunschliste verschieben",module,Magento_Sales
 "Subscribe to Newsletter","Newsletter abonnieren",module,Magento_Sales
 "Click to change shipping method","Hier klicken, um die Versandsart zu ändern",module,Magento_Sales
+"You don't need to select a shipping method.","Es muss keine Versandmethode ausgewählt werden.",module,Magento_Sales
 "Customer's Activities","Aktivitäten des Kunden",module,Magento_Sales
 Refresh,Aktualisieren,module,Magento_Sales
 Item,Artikel,module,Magento_Sales
@@ -3461,7 +3467,9 @@ Rate,Satz,module,Magento_TaxImportExport
 "Invalid file upload attempt","Ungültiger Datei-Upload-Versuch",module,Magento_TaxImportExport
 "Invalid file upload attempt.","Ungültiger Datei-Upload-Versuch.",module,Magento_TaxImportExport
 "Invalid file format.","Ungültiges Dateiformat.",module,Magento_TaxImportExport
+"One of the countries has invalid code.","Eines der Länder hat einen ungültigen Code.",module,Magento_TaxImportExport
 "Import Tax Rates",Importsteuersätze,module,Magento_TaxImportExport
+"Export Tax Rates","Steuersätze exportieren",module,Magento_TaxImportExport
 "Tax Rate Information","Ja (nur Preis inkl. Steuer)",module,Magento_Tax
 "Tax Identifier",Steueridentifikator,module,Magento_Tax
 "Zip/Post is Range","Nur für bestimmte Postleitzahlen",module,Magento_Tax
@@ -3985,6 +3993,7 @@ Password:,Passwort:,theme,frontend/Magento/luma
 "Add Products to New Option","Füge Artikel zur neuen Option hinzu",module,Magento_Bundle
 "Add Products to Option ""%1""","Füge Artikel zur Option ""%1"" hinzu",module,Magento_Bundle
 "Add Selected Products","Füge ausgewählte Artikel hinzu",module,Magento_Bundle
+"Warning message",Warnmeldung,module,Magento_Catalog
 Ok,Akzeptiert,module,Magento_Catalog
 Cancel,Speichern,module,Magento_Catalog
 Submit,Absenden,module,Magento_Catalog
