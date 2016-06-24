@@ -1061,7 +1061,6 @@ State/Province,Bundesland,module,Magento_Checkout
 "My Cart (1 item)","Mein Warenkorb (1 Artikel)",module,Magento_Checkout
 "My Cart (%1 items)","Mein Warenkorb (%1 Artikel)",module,Magento_Checkout
 "My Cart","Mein Warenkorb",module,Magento_Checkout
-"Minimum order amount is %1","Mindestbestellwert beträgt %1",module,Magento_Checkout
 "Customer is already registered","Kunde ist bereits registriert",module,Magento_Checkout
 "Your session has expired","Ihre Sitzung ist abgelaufen",module,Magento_Checkout
 "You added %1 to your shopping cart.","Sie haben %1 in Ihren Warenkorb gelegt.",module,Magento_Checkout
@@ -2241,9 +2240,6 @@ Yes,Ja,module,Magento_Payment
 No,Keine,module,Magento_Payment
 "Expiration Date",Ablaufdatum,module,Magento_Payment
 "Card Verification Number",Kartenprüfnummer,module,Magento_Payment
-"Switch/Solo/Maestro Only","Nur Switch/Solo/Maestro",module,Magento_Payment
-"Issue Number",Ausstellungsnummer,module,Magento_Payment
-"Start Date",Start,module,Magento_Payment
 "Please Select","Bitte auswählen",module,Magento_Payment
 "--Please Select--","--Bitte wählen--",module,Magento_Payment
 "Card Verification Number Visual Reference",Kartenprüfnummer,module,Magento_Payment
