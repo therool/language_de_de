@@ -2598,6 +2598,7 @@ Conditions,Bedingungen,module,Magento_SalesRule
 "Coupon Qty","Coupon Menge",module,Magento_SalesRule
 "Code Length","Ohne Präfix, Suffix und Trennzeichen",module,Magento_SalesRule
 "Excluding prefix, suffix and separators.","Ohne Präfix, Suffix und Trennzeichen.",module,Magento_SalesRule
+"Code Format",Code-Format,module,Magento_SalesRule
 "Code Prefix","Code Präfix",module,Magento_SalesRule
 "If empty no separation.","Wenn leer, dann keine Trennung.",module,Magento_SalesRule
 Generate,Erstellen,module,Magento_SalesRule
@@ -3012,6 +3013,7 @@ Path,Pfad,module,Magento_Sitemap
 Generate,Erstellen,module,Magento_Sitemap
 "Add Sitemap","Sitemap hinzufügen",module,Magento_Sitemap
 Catalog,Katalog,module,Magento_Sitemap
+"Site Map",Sitemap,module,Magento_Sitemap
 Always,Immer,module,Magento_Sitemap
 Hourly,Stündlich,module,Magento_Sitemap
 Daily,täglich,module,Magento_Sitemap
@@ -3789,6 +3791,7 @@ Title,Titel,module,Magento_CatalogWidget
 "Display Page Control","Anzahl der Artikel die angezeigt werden sollen",module,Magento_CatalogWidget
 "Number of Products per Page","Anzahl Produkte pro Seite",module,Magento_CatalogWidget
 Template,Vorlage,module,Magento_CatalogWidget
+"Cache Lifetime (Seconds)","Cache-Lebensdauer (in Sekunden)",module,Magento_CatalogWidget
 "86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 wenn nichts anderes festgelegt. Um sofort zu aktualisieren, löschen Sie bitte den Block-HTML-Ausgabe-Cache.",module,Magento_CatalogWidget
 Conditions,Bedingungen,module,Magento_CatalogWidget
 Thumbnail,Vorschaubild,module,Magento_Catalog
