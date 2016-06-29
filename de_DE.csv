@@ -2088,6 +2088,7 @@ No,Keine,module,Magento_SalesRule
 Conditions,Bedingungen,module,Magento_SalesRule
 "Apply the rule only if the following conditions are met (leave blank for all products).","Regel nur anwenden, wenn die folgenden Bedingungen erfüllt sind (leer lassen, um alle Produkte einzuschließen).",module,Magento_SalesRule
 "Manage Coupon Codes","Gutscheine verwalten",module,Magento_SalesRule
+"Coupons Information",Gutscheininformationen,module,Magento_SalesRule
 "Coupon Qty","Coupon Menge",module,Magento_SalesRule
 "Code Length","Ohne Präfix, Suffix und Trennzeichen",module,Magento_SalesRule
 "Excluding prefix, suffix and separators.","Ohne Präfix, Suffix und Trennzeichen.",module,Magento_SalesRule
@@ -2112,6 +2113,7 @@ Active,Aktiv,module,Magento_SalesRule
 Inactive,Inaktiv,module,Magento_SalesRule
 "Customer Groups",Kundengruppen,module,Magento_SalesRule
 Coupon,Rabattcode,module,Magento_SalesRule
+"If you select and save the rule you will be able to generate multiple coupon codes.","Nach dem Speichern der Regel können Gutscheincodes generiert werden.",module,Magento_SalesRule
 Priority,Priorität,module,Magento_SalesRule
 ID,Id,module,Magento_SalesRule
 Rule,Regel,module,Magento_SalesRule
