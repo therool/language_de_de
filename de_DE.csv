@@ -2749,12 +2749,14 @@ Hidden,Versteckt,module,Magento_ProductVideo
 "Shipping & Handling","Versand & Bearbeitung",module,Magento_Quote
 Shipping,Versand,module,Magento_Quote
 Subtotal,Zwischensumme,module,Magento_Quote
+"Cart %1 doesn't contain item  %2","Warenkorb %1 enthält den Artikel %2 nicht",module,Magento_Quote
 "Cannot place order.","Bestellung kann nicht aufgegeben werden.",module,Magento_Quote
 "Please specify a shipping method.","Bitte wählen Sie eine Versandart.",module,Magento_Quote
 "Store Credit",Shop-Guthaben,module,Magento_Quote
 Discount,Rabatt,module,Magento_Quote
 Tax,Steuer,module,Magento_Quote
 "Shipping address not set.","Lieferadresse ist nicht festgelegt.",module,Magento_Quote
+"Carrier with such method not found: %1, %2","Ein Versand mit der Methode: %1,%2 konnte nicht gefunden werden",module,Magento_Quote
 "Cannot set shipping method. %1","Versandart kann nicht festgelegt werden. %1",module,Magento_Quote
 "New Accounts","nicht definiert",module,Magento_Reports
 "Customers by number of orders","Kunden nach Anzahl der Bestellungen",module,Magento_Reports
@@ -2954,6 +2956,7 @@ No,Keine,module,Magento_SalesRule
 Conditions,Bedingungen,module,Magento_SalesRule
 "Apply the rule only if the following conditions are met (leave blank for all products).","Regel nur anwenden, wenn die folgenden Bedingungen erfüllt sind (leer lassen, um alle Produkte einzuschließen).",module,Magento_SalesRule
 "Manage Coupon Codes","Gutscheine verwalten",module,Magento_SalesRule
+"Coupons Information",Gutscheininformationen,module,Magento_SalesRule
 "Coupon Qty","Coupon Menge",module,Magento_SalesRule
 "Code Length","Ohne Präfix, Suffix und Trennzeichen",module,Magento_SalesRule
 "Excluding prefix, suffix and separators.","Ohne Präfix, Suffix und Trennzeichen.",module,Magento_SalesRule
@@ -2978,6 +2981,7 @@ Active,Aktiv,module,Magento_SalesRule
 Inactive,Inaktiv,module,Magento_SalesRule
 "Customer Groups",Kundengruppen,module,Magento_SalesRule
 Coupon,Rabattcode,module,Magento_SalesRule
+"If you select and save the rule you will be able to generate multiple coupon codes.","Nach dem Speichern der Regel können Gutscheincodes generiert werden.",module,Magento_SalesRule
 From,Von,module,Magento_SalesRule
 To,Bis,module,Magento_SalesRule
 Priority,Priorität,module,Magento_SalesRule
@@ -2989,6 +2993,8 @@ End,Ende,module,Magento_SalesRule
 "%1 - Discounts and Coupons","%1 - Rabatte und Gutscheine",module,Magento_SalesRule
 Promotions,Werbeaktionen,module,Magento_SalesRule
 "You deleted the rule.","Sie haben die Regel gelöscht.",module,Magento_SalesRule
+"We can't delete the rule right now. Please review the log and try again.","Die Regel kann im Moment nicht gelöscht werden. Bitte das Log prüfen und erneut versuchen.",module,Magento_SalesRule
+"We can't find a rule to delete.","Es konnte keine Regel zum Löschen gefunden werden.",module,Magento_SalesRule
 "This rule no longer exists.","Diese Regel existiert nicht mehr.",module,Magento_SalesRule
 "Edit Rule","Regel bearbeiten",module,Magento_SalesRule
 "%1 coupon(s) have been generated.","%1 Gutscheine wurden generiert.",module,Magento_SalesRule
