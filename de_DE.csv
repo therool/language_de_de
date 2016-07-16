@@ -2886,6 +2886,7 @@ Quantity,Menge,module,Magento_Review
 "Default Value",Standardwert,module,Magento_Review
 "Sort Order",Sortierreihenfolge,module,Magento_Review
 Reviews,Rezensionen,module,Magento_Review
+"We can't retrieve the product ID.","Produkt-ID konnte nicht abgerufen werden.",module,Magento_Review
 "Please select review(s).","Bitte wählen Sie eine Bewertung(en) aus.",module,Magento_Review
 "Something went wrong while deleting these records.","Beim Löschen des Eintrags ist ein Fehler aufgetreten.",module,Magento_Review
 "Something went wrong while updating these review(s).","Beim Aktualsieren der Bewertung(en) ist ein Fehler aufgetreten.",module,Magento_Review
@@ -2894,9 +2895,11 @@ Reviews,Rezensionen,module,Magento_Review
 "The review was removed by another user or does not exist.","Die Bewertung wurde von einem anderen User gelöscht oder existiert nicht.",module,Magento_Review
 "You deleted the rating.","Sie haben die Bewertung gelöscht.",module,Magento_Review
 Ratings,Bewertungen,module,Magento_Review
+"We can't post your review right now.","Wir können Ihre Bewertung derzeit nicht speichern.",module,Magento_Review
 Approved,Freigegeben,module,Magento_Review
 Pending,Ausstehend,module,Magento_Review
 "Not Approved","Nicht freigegeben",module,Magento_Review
+"Please specify a rating title for a store, or we'll just use the default value.","Bitte geben Sie einen Bewertungstitel für den Store ein, oder wir verwenden den Standardwert.",module,Magento_Review
 "Product Name",Artikelname,module,Magento_Review
 Rating,Bewertung,module,Magento_Review
 Actions,Aktionen,module,Magento_Review
@@ -3128,7 +3131,11 @@ Sales,Verkäufe,module,Magento_Sales
 "%1 order(s) were not released from on hold status.","%1 Bestellung(en) wurde nicht der ""Halten"" Status entfernt.",module,Magento_Sales
 "%1 order(s) have been released from on hold status.","%1 Bestellung(en) wurde der ""Halten"" Status entfernt.",module,Magento_Sales
 "We can't update the payment right now.","Die Zahlung kann momentan nicht aktualisiert werden.",module,Magento_Sales
+"We can't find this order status.","Der Bestellstatus konnte nicht gefunden werden.",module,Magento_Sales
+"We can't add the order status right now.","Der Bestellstatus konnte nicht hinzugefügt werden.",module,Magento_Sales
+"Can't unhold order.","Die Bestellung konnte nicht freigegeben werden.",module,Magento_Sales
 "We can't void the payment right now.","Die Zahlung kann nicht annulliert werden.",module,Magento_Sales
+"We can't update the transaction details.","Die Transaktiondetails konnten nicht aktualisiert werden.",module,Magento_Sales
 "Orders and Returns","Bestellungen und Rücksendungen",module,Magento_Sales
 Home,Startseite,module,Magento_Sales
 "Go to Home Page","Zur Startseite",module,Magento_Sales
@@ -3144,6 +3151,7 @@ Guest,Gast,module,Magento_Sales
 "Please enter the zip/postal code.","Bitte geben Sie die Postleitzahl ein.",module,Magento_Sales
 "Please enter the country.","Bitte geben Sie das Land ein.",module,Magento_Sales
 "Please enter the state/province.","Geben Sie ein Bundesland/Gebiet ein.",module,Magento_Sales
+"Requested entity doesn't exist","Die angeforderte Einheit existiert nicht",module,Magento_Sales
 Pending,Ausstehend,module,Magento_Sales
 Refunded,Erstattet,module,Magento_Sales
 Canceled,Storniert,module,Magento_Sales
@@ -3155,6 +3163,7 @@ Invoiced,"In Rechnung gestellt",module,Magento_Sales
 "The payment method you requested is not available.","Die von Ihnen gewünschte Zahlungsmethode ist nicht verfügbar.",module,Magento_Sales
 Order,Bestellung,module,Magento_Sales
 Authorization,"Versand an",module,Magento_Sales
+"You can't do this without a transaction object.","Diese Aktion ist nicht ohne ein Transaktionsobjekt möglich.",module,Magento_Sales
 "Sold to:","Verkauft an:",module,Magento_Sales
 "Ship to:","Versand an:",module,Magento_Sales
 "Payment Method:",Zahlungsart:,module,Magento_Sales
