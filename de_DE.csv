@@ -1777,6 +1777,7 @@ Shipping,Versand,module,Magento_Payment
 "All Allowed Countries","Bestimmte Länder",module,Magento_Payment
 "Specific Countries","Bestimmte Länder",module,Magento_Payment
 "The payment method you requested is not available.","Die von Ihnen gewünschte Zahlungsmethode ist nicht verfügbar.",module,Magento_Payment
+"The refund action is not available.","Die Rückerstattung-Aktion ist nicht verfügbar.",module,Magento_Payment
 Yes,Ja,module,Magento_Payment
 No,Keine,module,Magento_Payment
 "Expiration Date",Ablaufdatum,module,Magento_Payment
