@@ -1979,6 +1979,7 @@ Reports,Berichte,module,Magento_Reports
 Review,Bewertungen,module,Magento_Reports
 Reviews,Rezensionen,module,Magento_Reports
 Sales,Verkäufe,module,Magento_Reports
+"Best Sellers Report",Bestsellerbericht,module,Magento_Reports
 Coupons,Gutscheine,module,Magento_Reports
 "Coupons Report",Gutscheine-Bericht,module,Magento_Reports
 "Shopping Cart",Warenkorb,module,Magento_Reports
@@ -3310,10 +3311,12 @@ Empty,Zeige,module,Magento_Theme
 "Title Suffix",Titel-Suffix,module,Magento_Theme
 "Default Description",Standardbeschreibung,module,Magento_Theme
 "Default Keywords",Standard-Schlüsselwörter,module,Magento_Theme
+"Miscellaneous Scripts","Diverse Skripte",module,Magento_Theme
 "Display Demo Store Notice","Demo Shop Notiz anzeigen",module,Magento_Theme
 "Reset to Defaults","Auf Standardwerte zurückgesetzt",module,Magento_Theme
 "Logo Image",Logo,module,Magento_Theme
 "Welcome Text",Begrüßungstext,module,Magento_Theme
+"This will be displayed just before body closing tag.","Dies erscheint vor dem schließenden Body Tag.",module,Magento_Theme
 "Translation Strategy",Übersetzungsstrategie,module,Magento_Translation
 Translations,Übersetzungen,module,Magento_Translation
 "Translation files.",Übersetzungsdateien.,module,Magento_Translation
