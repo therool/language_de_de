@@ -2116,6 +2116,7 @@ Inactive,Inaktiv,module,Magento_SalesRule
 "Customer Groups",Kundengruppen,module,Magento_SalesRule
 Coupon,Rabattcode,module,Magento_SalesRule
 "If you select and save the rule you will be able to generate multiple coupon codes.","Nach dem Speichern der Regel können Gutscheincodes generiert werden.",module,Magento_SalesRule
+"Usage limit enforced for logged in customers only.","Nutzungslimit wird nur für angemeldet Kunden erzwungen.",module,Magento_SalesRule
 Priority,Priorität,module,Magento_SalesRule
 ID,Id,module,Magento_SalesRule
 Rule,Regel,module,Magento_SalesRule
@@ -2859,6 +2860,8 @@ Pagination,Paginierung,module,Magento_Backend
 "Anchor Text for Next","Anchor-Text für Nachfolgende",module,Magento_Backend
 "Alternative text for next link in pagination menu. If empty, default arrow image will used.","Alternativer Text für ""weiter""-Link im Menü für die Seitennummerierung. Wenn leer, wird vorgegebene Pfeil-Grafik verwendet.",module,Magento_Backend
 Developer,Entwickler,module,Magento_Backend
+"Enabled Template Path Hints for Storefront","Vorlagenpfad Hinweise für Shopfrontend aktiviert",module,Magento_Backend
+"Enabled Template Path Hints for Admin","Vorlagenpfad Hinweise für Admin aktiviert",module,Magento_Backend
 "Add Block Names to Hints","Blocknamen zu Hinweisen hinzufügen",module,Magento_Backend
 "Template Settings","Template Einstellungen",module,Magento_Backend
 "Allow Symlinks","Symlinks erlauben",module,Magento_Backend
@@ -3297,6 +3300,7 @@ ID,Id,module,Magento_Sitemap
 "Link for Google","Link für Google",module,Magento_Sitemap
 "Last Generated","Zuletzt generiert",module,Magento_Sitemap
 Action,Aktion,module,Magento_Sitemap
+"Page blocks HTML.",HTML-Seiten-Blöcke.,module,Magento_Store
 "Swatches per Product","Muster je Artikel",module,Magento_Swatches
 "Tax Classes",Steuerklassen,module,Magento_Tax
 "Tax Class for Shipping","Steuerklasse für den Versand",module,Magento_Tax
