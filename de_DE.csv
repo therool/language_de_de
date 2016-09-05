@@ -1203,6 +1203,8 @@ Checkout,Kasse,module,Magento_Checkout
 "Display number of items in cart","Zeige Anzahl der Produkte im Warenkorb",module,Magento_Checkout
 "Display item quantities","Zeige Artikelanzahl",module,Magento_Checkout
 "Shipping address is not set","Lieferadresse ist nicht festgelegt.",module,Magento_Checkout
+"Unable to save shipping information. Please check input data.","Versandinformationen können nicht gespeichert werden. Bitte überprüfen Sie Ihre Eingaben.",module,Magento_Checkout
+"Shipping method is not applicable for empty cart","Diese Versandart ist bei einem leeren Warenkorb nicht anwendbar",module,Magento_Checkout
 "Invalid data","Ungültige Daten",module,Magento_Checkout
 "The customer address is not valid.","Die Kundenadresse ist ungültig.",module,Magento_Checkout
 "Invalid shipping method","Ungültige Versandmethode",module,Magento_Checkout
@@ -1211,6 +1213,7 @@ Checkout,Kasse,module,Magento_Checkout
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Sie müssen Ihr Konto bestätigen. Bitte überprüfen Sie Ihre E-Mail-Adresse für den Bestätigungslink oder <a href=""%1"">Klicken Sie hier</a> für einen neuen Link.",module,Magento_Checkout
 "Error message!",Fehlermeldung!,module,Magento_Checkout
 Error!,Fehler!,module,Magento_Checkout
+"DB exception","Fehler in der Datenbank",module,Magento_Checkout
 "Wrong minimum amount.","Fehlerhafter Mindestbetrag.",module,Magento_Checkout
 Message,Nachricht,module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Beleg drucken</a>",module,Magento_Checkout
@@ -1498,7 +1501,7 @@ Import,Importieren,module,Magento_CurrencySymbol
 "You subscribe to our newsletter.","Sie abonnieren unseren Newsletter.",module,Magento_Customer
 "You don't subscribe to our newsletter.","Sie abonnieren unseren Newsletter nicht.",module,Magento_Customer
 "You have not set a default shipping address.","Sie haben keine Standardlieferadresse festgelegt.",module,Magento_Customer
-"You have not set a default billing address.","Sie haben keine Standardrechnungsadresse festgelegt.",module,Magento_Customer
+"You have not set a default billing address.","Sie haben keine Standard-Rechnungsanschrift angegeben.",module,Magento_Customer
 "Address Book",Adressbuch,module,Magento_Customer
 "Edit Address","Rechnungsadresse ändern",module,Magento_Customer
 "Add New Address","Neue Adresse hinzufügen",module,Magento_Customer
@@ -1550,7 +1553,7 @@ Qty,Menge,module,Magento_Customer
 Confirmed,Bestätigt,module,Magento_Customer
 "Confirmation Required","Bestätigung erforderlich",module,Magento_Customer
 "Confirmation Not Required","Bestätigung nicht erforderlich",module,Magento_Customer
-"The customer does not have default billing address.","Der Kunde hat keine Standard-Rechnungsadresse.",module,Magento_Customer
+"The customer does not have default billing address.","Der Kunde verfügt über keine Standard-Rechnungsanschrift.",module,Magento_Customer
 Never,Niemals,module,Magento_Customer
 "Deleted Stores","Gelöschten Stores",module,Magento_Customer
 "Add Date","Datum hinzufügen",module,Magento_Customer
@@ -1594,6 +1597,7 @@ Download,Herunterladen,module,Magento_Customer
 "We can't save the customer.","Der Kunde kann nicht gespeichert werden.",module,Magento_Customer
 "Please make sure your passwords match.","Bitte stellen Sie sicher, dass Ihre Kennwörter übereinstimmen.",module,Magento_Customer
 "Account Information",Kontoinformation,module,Magento_Customer
+"You saved the account information.","Konto-Informationen wurden gespeichert.",module,Magento_Customer
 "The password doesn't match this account.","Das Kennwort passt nicht zum Konto.",module,Magento_Customer
 "Please correct the email address.","Bitte korrigieren Sie die E-Mail-Adresse.",module,Magento_Customer
 "We're unable to send the password reset email.","Die E-Mail zum Zurücksetzen des Passworts konnte nicht gesendet werden.",module,Magento_Customer
@@ -1632,6 +1636,7 @@ Customers,Kunden,module,Magento_Customer
 "A total of %1 record(s) were deleted.","Insgesamt wurden %1 Eintragung(en) gelöscht.",module,Magento_Customer
 "The customer will receive an email with a link to reset password.","Der Kunde erhält eine e-Mail mit einem Link um sein Passwort zurückzusetzen.",module,Magento_Customer
 "Something went wrong while resetting customer password.","Irgendetwas ging schief beim Kundenkennwort zurücksetzen.",module,Magento_Customer
+"You saved the customer.","Der Kunde wurde gespeichert.",module,Magento_Customer
 "Something went wrong while saving the customer.","Beim Speichern des Kunden ging etwas schief.",module,Magento_Customer
 "Page not found.","Seite nicht gefunden.",module,Magento_Customer
 "Online Customers",Online-Kunden,module,Magento_Customer
@@ -1720,7 +1725,7 @@ Customer,Kunde,module,Magento_Customer
 "Account Created on (%1):","Konto erstellt am (%1):",module,Magento_Customer
 "Account Created in:","Kundenkonto angelegt in:",module,Magento_Customer
 "Customer Group:",Kundengruppe:,module,Magento_Customer
-"Default Billing Address","Als Standard Versandadresse verwenden",module,Magento_Customer
+"Default Billing Address",Standard-Rechnungsanschrift,module,Magento_Customer
 "Sales Statistics",Verkaufsstatistik,module,Magento_Customer
 "Web Site",Website,module,Magento_Customer
 "Store View",Store-View,module,Magento_Customer
@@ -1737,7 +1742,7 @@ Newsletters,Newsletter,module,Magento_Customer
 or,oder,module,Magento_Customer
 "Default Addresses",Standard-Adressen,module,Magento_Customer
 "Change Billing Address","Rechnungsanschrift ändern",module,Magento_Customer
-"You have no default billing address in your address book.","Sie haben keine Standardwert Rechnungsadresse in Ihrem Adressbuch.",module,Magento_Customer
+"You have no default billing address in your address book.","Sie haben keine Standard-Rechnungsanschrift in Ihrem Adressbuch.",module,Magento_Customer
 "Change Shipping Address","Lieferadresse ändern",module,Magento_Customer
 "You have no default shipping address in your address book.","Sie haben keine Standard Versand-Adresse in Ihrem Adressbuch.",module,Magento_Customer
 "Additional Address Entries","Zusätzliche Adresseinträge",module,Magento_Customer
@@ -1755,7 +1760,8 @@ State/Province,Bundesland,module,Magento_Customer
 "Please select a region, state or province.","Wählen Sie eine Region, Bundesland oder Provinz.",module,Magento_Customer
 "Zip/Postal Code",PLZ,module,Magento_Customer
 Country,Land,module,Magento_Customer
-"Use as my default billing address","Als meine Standard Rechnungsadresse verwenden",module,Magento_Customer
+"It's a default billing address.","Es ist eine Standard-Rechnungsanschrift.",module,Magento_Customer
+"Use as my default billing address","Als meine Standard-Rechnungsanschrift verwenden",module,Magento_Customer
 "Use as my default shipping address","Als meine Standard-Lieferadresse verwenden",module,Magento_Customer
 "Save Address","Adresse speichern",module,Magento_Customer
 "Go back",Zurück,module,Magento_Customer
@@ -1770,7 +1776,7 @@ Email,E-Mail,module,Magento_Customer
 "Confirm New Password","Neues Passwort bestätigen",module,Magento_Customer
 Save,Speichern,module,Magento_Customer
 "Please enter your email address below to receive a password reset link.","Bitte geben Sie Ihre e-Mail-Adresse ein um einen Kennwort zurücksetzen-Link zu erhalten.",module,Magento_Customer
-"Registered Customers",Postleitzahl,module,Magento_Customer
+"Registered Customers","Registrierte Kunden",module,Magento_Customer
 "If you have an account, sign in with your email address.","Wenn Sie ein Konto haben, melden Sie sich mit Ihrer e-Mail-Adresse.",module,Magento_Customer
 Password,Passwort,module,Magento_Customer
 "Forgot Your Password?","Passwort vergessen?",module,Magento_Customer
@@ -3919,6 +3925,7 @@ Remove,Entfernen,theme,frontend/Magento/luma
 "What is this?","Was ist das?",module,Magento_Braintree
 "Place Order","Jetzt kaufen",module,Magento_Braintree
 "Attention: Captcha is case sensitive.","Achtung: Groß-/Kleinschreibung des Captcha beachten.",module,Magento_Captcha
+"Payment Transaction Failed","Zahlungsvorgang fehlgeschlagen",module,Magento_Checkout
 Reason,Grund,module,Magento_Checkout
 Customer:,Kunde:,module,Magento_Checkout
 Items,Artikel,module,Magento_Checkout
@@ -3931,14 +3938,19 @@ Total:,Gesamtsumme:,module,Magento_Checkout
 "Email Address",E-Mailadresse,module,Magento_Checkout
 Password,Passwort,module,Magento_Checkout
 "Forgot Your Password?","Passwort vergessen?",module,Magento_Checkout
+"My billing and shipping address are the same","Meine Rechnungs- und Lieferanschrift sind identisch",module,Magento_Checkout
 Update,Aktualisieren,module,Magento_Checkout
 Cancel,Speichern,module,Magento_Checkout
 "Save in address book","Im Adressbuch speichern",module,Magento_Checkout
+"Estimated Total","Geschätzte Gesamtkosten",module,Magento_Checkout
+"You can create an account after checkout.","Nach dem Kauf können Sie ein Benutzerkonto erstellen.",module,Magento_Checkout
+"You already have an account with us. Sign in or continue as guest.","Sie haben bereits ein Konto bei uns. Melden Sie sich an oder kaufen Sie als Gast bei uns ein.",module,Magento_Checkout
 Login,Anmelden,module,Magento_Checkout
 Close,Schließen,module,Magento_Checkout
 item,Artikel,module,Magento_Checkout
 items,Artikel,module,Magento_Checkout
 "Go to Checkout","Zur Kasse gehen",module,Magento_Checkout
+"Recently added item(s)","Kürzlich hinzugefügte Artikel",module,Magento_Checkout
 "View and edit cart","Warenkorb anzeigen und bearbeiten",module,Magento_Checkout
 "See Details","Details anzeigen",module,Magento_Checkout
 Remove,Entfernen,module,Magento_Checkout
@@ -3955,7 +3967,11 @@ edit,bearbeiten,module,Magento_Checkout
 "Shipping Address",Lieferadresse,module,Magento_Checkout
 "New Address","Neue Adresse",module,Magento_Checkout
 "Shipping Methods",Versandarten,module,Magento_Checkout
+"Select Method","Bitte wählen",module,Magento_Checkout
+"Method Title",Versandart,module,Magento_Checkout
+"Carrier Title",Bezeichnung,module,Magento_Checkout
 Next,Weiter,module,Magento_Checkout
+"Order Summary",Bestellübersicht,module,Magento_Checkout
 "Item in Cart","Artikel im Warenkorb",module,Magento_Checkout
 "Items in Cart","Artikel im Warenkorb",module,Magento_Checkout
 "View Details","Details anzeigen",module,Magento_Checkout
@@ -4043,6 +4059,7 @@ Submit,Absenden,module,Magento_Catalog
 "Choose existing category.","Eine bestehende Kategorie auswählen.",module,Magento_Catalog
 Added,Hinzugefügt,module,Magento_Catalog
 "unselect all","Auswahl aufheben",module,Magento_Catalog
+"Review & Payments","Prüfung & Zahlung",module,Magento_Checkout
 Shipping,Versand,module,Magento_Checkout
 "Save Address","Adresse speichern",module,Magento_Checkout
 "Incl. Tax","Inkl. Steuern",module,Magento_ConfigurableProduct
@@ -4212,6 +4229,7 @@ Description,Beschreibung,module,Magento_Backend
 Tags,Schlagwörter,module,Magento_Backend
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading""> 404-Fehler</h1> <p>Seite nicht gefunden.</p>",module,Magento_Backend
 "Community Edition",Community-Edition,module,Magento_Backend
+"Design Rule","Design Regel",module,Magento_Backend
 Pagination,Paginierung,module,Magento_Backend
 "How many links to display at once.","Wie viele Links auf einmal angezeigen.",module,Magento_Backend
 "Anchor Text for Previous","Anchor-Text für Vorherige",module,Magento_Backend
