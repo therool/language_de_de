@@ -1091,7 +1091,7 @@ Import,Importieren,module,Magento_CurrencySymbol
 "Orphan rows that will be skipped due default row errors","Verwaiste Zeilen, welche durch Standard Zeilenfehler übersprungen werden",module,Magento_CustomerImportExport
 "You subscribe to our newsletter.","Sie abonnieren unseren Newsletter.",module,Magento_Customer
 "You have not set a default shipping address.","Sie haben keine Standardlieferadresse festgelegt.",module,Magento_Customer
-"You have not set a default billing address.","Sie haben keine Standardrechnungsadresse festgelegt.",module,Magento_Customer
+"You have not set a default billing address.","Sie haben keine Standard-Rechnungsanschrift angegeben.",module,Magento_Customer
 "Address Book",Adressbuch,module,Magento_Customer
 "Edit Address","Rechnungsadresse ändern",module,Magento_Customer
 "Add New Address","Neue Adresse hinzufügen",module,Magento_Customer
@@ -1138,7 +1138,7 @@ Qty,Menge,module,Magento_Customer
 Confirmed,Bestätigt,module,Magento_Customer
 "Confirmation Required","Bestätigung erforderlich",module,Magento_Customer
 "Confirmation Not Required","Bestätigung nicht erforderlich",module,Magento_Customer
-"The customer does not have default billing address.","Der Kunde hat keine Standard-Rechnungsadresse.",module,Magento_Customer
+"The customer does not have default billing address.","Der Kunde verfügt über keine Standard-Rechnungsanschrift.",module,Magento_Customer
 Never,Niemals,module,Magento_Customer
 "Deleted Stores","Gelöschten Stores",module,Magento_Customer
 "Add Date","Datum hinzufügen",module,Magento_Customer
@@ -1191,6 +1191,7 @@ Customers,Kunden,module,Magento_Customer
 "Manage Customers","Kunden verwalten",module,Magento_Customer
 "A total of %1 record(s) were updated.","Insgesamt %1 Einträge wurden aktualisiert.",module,Magento_Customer
 "A total of %1 record(s) were deleted.","Insgesamt wurden %1 Eintragung(en) gelöscht.",module,Magento_Customer
+"You saved the customer.","Der Kunde wurde gespeichert.",module,Magento_Customer
 "This account is not confirmed.","Dieses Konto wurde nicht bestätigt.",module,Magento_Customer
 "Please enter the first name.","Bitte geben Sie den Nachnamen an.",module,Magento_Customer
 "Please enter the last name.","Bitte geben Sie den Nachnamen ein.",module,Magento_Customer
@@ -1239,7 +1240,7 @@ Customer,Kunde,module,Magento_Customer
 "Account Created on (%1):","Konto erstellt am (%1):",module,Magento_Customer
 "Account Created in:","Kundenkonto angelegt in:",module,Magento_Customer
 "Customer Group:",Kundengruppe:,module,Magento_Customer
-"Default Billing Address","Als Standard Versandadresse verwenden",module,Magento_Customer
+"Default Billing Address",Standard-Rechnungsanschrift,module,Magento_Customer
 "Sales Statistics",Verkaufsstatistik,module,Magento_Customer
 "Web Site",Website,module,Magento_Customer
 "Store View",Store-View,module,Magento_Customer
@@ -1254,7 +1255,7 @@ Change,Ändern,module,Magento_Customer
 Newsletters,Newsletter,module,Magento_Customer
 "Default Addresses",Standard-Adressen,module,Magento_Customer
 "Change Billing Address","Rechnungsanschrift ändern",module,Magento_Customer
-"You have no default billing address in your address book.","Sie haben keine Standardwert Rechnungsadresse in Ihrem Adressbuch.",module,Magento_Customer
+"You have no default billing address in your address book.","Sie haben keine Standard-Rechnungsanschrift in Ihrem Adressbuch.",module,Magento_Customer
 "Change Shipping Address","Lieferadresse ändern",module,Magento_Customer
 "You have no default shipping address in your address book.","Sie haben keine Standard Versand-Adresse in Ihrem Adressbuch.",module,Magento_Customer
 "Additional Address Entries","Zusätzliche Adresseinträge",module,Magento_Customer
@@ -1269,7 +1270,7 @@ City,Stadt,module,Magento_Customer
 State/Province,Bundesland,module,Magento_Customer
 "Zip/Postal Code",PLZ,module,Magento_Customer
 Country,Land,module,Magento_Customer
-"Use as my default billing address","Als meine Standard Rechnungsadresse verwenden",module,Magento_Customer
+"Use as my default billing address","Als meine Standard-Rechnungsanschrift verwenden",module,Magento_Customer
 "Use as my default shipping address","Als meine Standard-Lieferadresse verwenden",module,Magento_Customer
 "Save Address","Adresse speichern",module,Magento_Customer
 "Go back",Zurück,module,Magento_Customer
@@ -1280,7 +1281,7 @@ Email,E-Mail,module,Magento_Customer
 "Confirm New Password","Neues Passwort bestätigen",module,Magento_Customer
 Save,Speichern,module,Magento_Customer
 Submit,Absenden,module,Magento_Customer
-"Registered Customers",Postleitzahl,module,Magento_Customer
+"Registered Customers","Registrierte Kunden",module,Magento_Customer
 Password,Passwort,module,Magento_Customer
 Login,Anmelden,module,Magento_Customer
 "Forgot Your Password?","Passwort vergessen?",module,Magento_Customer
