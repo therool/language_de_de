@@ -3355,16 +3355,22 @@ Path,Pfad,module,Magento_Sitemap
 Generate,Erstellen,module,Magento_Sitemap
 "Add Sitemap","Sitemap hinzufügen",module,Magento_Sitemap
 Catalog,Katalog,module,Magento_Sitemap
+"You deleted the sitemap.","Sie haben die Sitemap gelöscht.",module,Magento_Sitemap
 "We can't find a sitemap to delete.","Die Sitemap konnte nicht gelöscht werden da sie nicht auffindbar ist.",module,Magento_Sitemap
+"This sitemap no longer exists.","Diese Sitemap ist nicht mehr vorhanden.",module,Magento_Sitemap
 "Site Map",Sitemap,module,Magento_Sitemap
 "We can't generate the sitemap right now.","Momentan kann die Sitemap nicht generiert werden.",module,Magento_Sitemap
 "We can't find a sitemap to generate.","Die Sitemap kann nicht generiert werden.",module,Magento_Sitemap
+"You saved the sitemap.","Sie haben die Sitemap gespeichert.",module,Magento_Sitemap
+"The priority must be between 0 and 1.","Die Priorität muss zwischen 0 und 1 liegen.",module,Magento_Sitemap
 Always,Immer,module,Magento_Sitemap
 Hourly,Stündlich,module,Magento_Sitemap
 Daily,täglich,module,Magento_Sitemap
 Weekly,wöchentlich,module,Magento_Sitemap
 Monthly,Monatlich,module,Magento_Sitemap
+Yearly,Jährlich,module,Magento_Sitemap
 Never,Niemals,module,Magento_Sitemap
+"File handler unreachable","Dateihandler unerreichbar",module,Magento_Sitemap
 None,Keine,module,Magento_Sitemap
 All,Alle,module,Magento_Sitemap
 "Invalid store parameter.","Ungültiger Store-Parameter.",module,Magento_Store
