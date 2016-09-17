@@ -4161,6 +4161,7 @@ Developer,Entwickler,module,Magento_Backend
 "Translate Inline","Übersetzen von Inline",module,Magento_Backend
 "Enabled for Storefront","Aktiviert für Storefront",module,Magento_Backend
 "Enabled for Admin","Für Admin aktiviert",module,Magento_Backend
+"Translate, blocks and other output caches should be disabled for both Storefront and Admin inline translations.","Übersetzungen, Blöcke und andere Ausgabe-Caches sollten sowohl für den Shop-Frontend als auch für die Admin-Übersetzungen ausgeschaltet sein.",module,Magento_Backend
 "JavaScript Settings",JavaScript-Einstellungen,module,Magento_Backend
 "Merge JavaScript Files","JavaScript-Dateien zusammenführen",module,Magento_Backend
 "Enable JavaScript Bundling","Bündelung von JavaScript aktivieren",module,Magento_Backend
@@ -4198,20 +4199,28 @@ City,Stadt,module,Magento_Backend
 "Mail Sending Settings","Mail senden Einstellungen",module,Magento_Backend
 "Disable Email Communications","Deaktivieren Sie die E-Mail-Kommunikation",module,Magento_Backend
 "Set Return-Path","Return-Path festgelegt",module,Magento_Backend
+"Return-Path Email","Zurückgegangene Email",module,Magento_Backend
 Admin,Administrator,module,Magento_Backend
 "Admin User Emails","Admin User E-Mails",module,Magento_Backend
 "Forgot Password Email Template","Passwort vergessen Email Template",module,Magento_Backend
+"Forgot and Reset Email Sender",Vergessen-und-zurücksetzen-Email,module,Magento_Backend
 "Startup Page",Startseite,module,Magento_Backend
 "Use Custom Admin URL","Verwenden Sie benutzerdefinierte Admin URL",module,Magento_Backend
 "Custom Admin URL","Benutzerdefinierte Admin URL",module,Magento_Backend
+"Make sure that base URL ends with '/' (slash), e.g. http://yourdomain/magento/","Stellen Sie sicher, dass die base-Url mit '/' (Schragstrich) endet, z.B. http://yourdomain/magento/",module,Magento_Backend
 "Use Custom Admin Path","Verwenden Sie benutzerdefinierte Adminpfad",module,Magento_Backend
 "Custom Admin Path","Benutzerdefinierte Admin-Pfad",module,Magento_Backend
+"You will have to sign in after you save your custom admin path.","Sie müssen sich nun anmelden, nachdem Sie sich Ihren benutzerdefinierten Admin-Pfad gespeichert haben.",module,Magento_Backend
 Security,Sicherheit,module,Magento_Backend
+"Recovery Link Expiration Period (hours)","Recovery-Link Ablaufzeitraum (in Stunden)",module,Magento_Backend
+"Please enter a number 1 or greater in this field.","Bitte eine Zahl in diese Feld eingeben. (1 oder größer)",module,Magento_Backend
 "Add Secret Key to URLs","Geheimen Schlüssel zu URLs hinzufügen",module,Magento_Backend
 "Login is Case Sensitive","Login ist Groß-/Kleinschreibung",module,Magento_Backend
 "Admin Session Lifetime (seconds)","Admin-Sitzungsdauer (Sekunden)",module,Magento_Backend
+"Please enter at least 60 and at most 31536000 (one year).","Bitte geben Sie mindestens 60 und höchstens 31536000 ein (31536000 = 1 Jahr).",module,Magento_Backend
 "Enable Charts","Charts aktivieren",module,Magento_Backend
 "Url Options",Url-Optionen,module,Magento_Backend
+"Add Store Code to Urls","Füge Store-Code zu Urls hinzu",module,Magento_Backend
 "Search Engine Optimization",Suchmaschinenoptimierung,module,Magento_Backend
 "Base URLs",Basis-URLs,module,Magento_Backend
 "Base URL",Basis-URL,module,Magento_Backend
