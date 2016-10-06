@@ -295,7 +295,7 @@ Loading...,"Wird geladen …",module,Magento_Backend
 "System Backup",Systemsicherung,module,Magento_Backup
 "Database and Media Backup","Datenbank- und Mediensicherung",module,Magento_Backup
 "Database Backup",Datenbanksicherung,module,Magento_Backup
-"The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","Das Archiv kann mit <a href=""%1"">%2</a> auf Windowssystemen dekomprimiert werden.",module,Magento_Backup
+"The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","Das Archiv kann mit <a href=""%1"">%2</a> auf Windows-Systemen dekomprimiert werden.",module,Magento_Backup
 "You need more permissions to activate maintenance mode right now.","Sie benötigen weitere Berechtigungen um den Wartungsmodus jetzt zu aktivieren.",module,Magento_Backup
 "You need more free space to create a backup.","Sie brauchen mehr freien Speicherplatz, um eine Sicherung zu erstellen.",module,Magento_Backup
 "You need more permissions to create a backup.","Sie benötigen weitere Berechtigungen zum Erstellen einer Sicherung.",module,Magento_Backup
@@ -304,7 +304,7 @@ Tools,Werkzeuge,module,Magento_Backup
 Backup,Sicherung,module,Magento_Backup
 failed,fehlgeschlagen,module,Magento_Backup
 successful,erfolgreich,module,Magento_Backup
-"Please correct the password.","Bitte korrigieren Sie das Kennwort.",module,Magento_Backup
+"Please correct the password.","Bitte korrigieren Sie das Passwort.",module,Magento_Backup
 Database,Datenbank,module,Magento_Backup
 "Database and Media","Datenbank und Medien",module,Magento_Backup
 "System (excluding Media)","System (ausgenommen Medien)",module,Magento_Backup
@@ -334,7 +334,7 @@ Database,Datenbank,module,Magento_Backup
 "Magento root directory",Magento-Root-Verzeichnis,module,Magento_Backup
 "Create Backup","Backup erstellen",module,Magento_Backup
 Country,Land,module,Magento_Braintree
-"Allowed Credit Card Types","Pflichtangabe der Rechnungsadresse des Kunden",module,Magento_Braintree
+"Allowed Credit Card Types","Zulässige Kreditkartentypen",module,Magento_Braintree
 "Add Rule","Regel hinzufügen",module,Magento_Braintree
 "Stored Card","Gespeicherte Karte",module,Magento_Braintree
 "Credit Card Type",Kreditkartentyp,module,Magento_Braintree
@@ -2934,18 +2934,30 @@ Security,Sicherheit,module,Magento_Backend
 "Enable Charts","Charts aktivieren",module,Magento_Backend
 "Url Options",Url-Optionen,module,Magento_Backend
 "Add Store Code to Urls","Füge Store-Code zu Urls hinzu",module,Magento_Backend
+"Auto-redirect to Base URL","Automatische Umleitung zu Basis-URL",module,Magento_Backend
 "Search Engine Optimization",Suchmaschinenoptimierung,module,Magento_Backend
+"Use Web Server Rewrites","Webserver-Rewrites verwenden",module,Magento_Backend
 "Base URLs",Basis-URLs,module,Magento_Backend
 "Base URL",Basis-URL,module,Magento_Backend
 "Specify URL or {{base_url}} placeholder.","Spezifische URL oder {{base_url}} Platzhalter.",module,Magento_Backend
 "Base Link URL",Basis-Link-URL,module,Magento_Backend
+"Base URL for Static View Files","Basis-URL für statische Dateien",module,Magento_Backend
+"May be empty or start with {{unsecure_base_url}} placeholder.","Kann leer sein oder mit Platzhalter {{unsecure_base_url}} beginnen.",module,Magento_Backend
+"Base URL for User Media Files","Basis-URL für Benutzer-Mediendateien",module,Magento_Backend
 "Base URLs (Secure)","Basis-URLs (Sicherheit)",module,Magento_Backend
 "Secure Base URL","Sichere Basis-URL",module,Magento_Backend
+"Specify URL or {{base_url}}, or {{unsecure_base_url}} placeholder.","URL oder Platzhalter {{base_url}} bzw. {{unsecure_base_url}} angeben.",module,Magento_Backend
 "Secure Base Link URL","Sichere Basis Link-URL",module,Magento_Backend
+"Secure Base URL for Static View Files","Sichere Basis-URL für statische Dateien",module,Magento_Backend
+"May be empty or start with {{secure_base_url}}, or {{unsecure_base_url}} placeholder.","Kann leer sein oder mit Platzhalter {{secure_base_url}} bzw. {{unsecure_base_url}} beginnen.",module,Magento_Backend
+"Secure Base URL for User Media Files","Sichere Basis-URL für Benutzer-Mediendateien",module,Magento_Backend
+"Use Secure URLs on Storefront","Sichere URLs in Storefront verwenden",module,Magento_Backend
+"Use Secure URLs in Admin","Sichere URLs im Administrationsbereich benutzen",module,Magento_Backend
 "Offloader header","Offloader Header",module,Magento_Backend
 "Default Pages",Standardseiten,module,Magento_Backend
 "Default Web URL",Standard-Web-URL,module,Magento_Backend
 "Default No-route URL","Standard No-Route-URL",module,Magento_Backend
+"Session Validation Settings","Einstellungen für Sitzungsüberprüfung",module,Magento_Backend
 "Validate REMOTE_ADDR","REMOTE_ADDR validieren",module,Magento_Backend
 "Validate HTTP_VIA","HTTP_VIA validieren",module,Magento_Backend
 "Validate HTTP_X_FORWARDED_FOR","HTTP_X_FORWARDED_FOR validieren",module,Magento_Backend
@@ -2973,7 +2985,10 @@ Action,Aktion,module,Magento_Backup
 Rollback,Wiederherstellung,module,Magento_Backup
 Title,Titel,module,Magento_Braintree
 Environment,Umgebung,module,Magento_Braintree
-"Merchant ID","Verkäufer ID",module,Magento_Braintree
+"Merchant Account ID",Händler-Konto-ID,module,Magento_Braintree
+"Merchant ID",Händler-ID,module,Magento_Braintree
+"Public Key","Öffentlicher Schlüssel",module,Magento_Braintree
+"Private Key","Privater Schlüssel",module,Magento_Braintree
 "Capture action","Aktion aufzeichnen",module,Magento_Braintree
 "Use Vault","Vault verwenden",module,Magento_Braintree
 "Allow Duplicate Cards","doppelte Karten ermöglichen",module,Magento_Braintree
@@ -2982,6 +2997,7 @@ Environment,Umgebung,module,Magento_Braintree
 "Use Cache","Cache verwenden",module,Magento_Braintree
 "Payment from Applicable Countries","Zahlung von bestimmten Ländern",module,Magento_Braintree
 "Payment from Specific Countries","Zahlung aus bestimmten Ländern",module,Magento_Braintree
+"Country Specific Credit Card Types","Länderspezifische Kreditkartentypen",module,Magento_Braintree
 "Enable CAPTCHA in Admin","CAPTCHA im Admin-Bereich aktivieren",module,Magento_Captcha
 Font,Schriftart,module,Magento_Captcha
 Forms,Formulare,module,Magento_Captcha
