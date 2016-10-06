@@ -361,7 +361,7 @@ Loading...,"Wird geladen …",module,Magento_Backend
 "System Backup",Systemsicherung,module,Magento_Backup
 "Database and Media Backup","Datenbank- und Mediensicherung",module,Magento_Backup
 "Database Backup",Datenbanksicherung,module,Magento_Backup
-"The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","Das Archiv kann mit <a href=""%1"">%2</a> auf Windowssystemen dekomprimiert werden.",module,Magento_Backup
+"The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","Das Archiv kann mit <a href=""%1"">%2</a> auf Windows-Systemen dekomprimiert werden.",module,Magento_Backup
 "You need more permissions to activate maintenance mode right now.","Sie benötigen weitere Berechtigungen um den Wartungsmodus jetzt zu aktivieren.",module,Magento_Backup
 "To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.","Um die Sicherung zu erstellen, deaktivieren Sie bitte \"Store in den Wartungsmodus versetzen\" oder aktualisieren Sie Ihre Berechtigungen.",module,Magento_Backup
 "Something went wrong while putting your store into maintenance mode.","Etwas ging schief, während Ihr Store in den Wartungsmodus versetzt wurde.",module,Magento_Backup
@@ -376,7 +376,8 @@ failed,fehlgeschlagen,module,Magento_Backup
 successful,erfolgreich,module,Magento_Backup
 "You deleted the selected backup(s).","Sie entfernten die ausgewählten Sicherung(en).",module,Magento_Backup
 "Can't load snapshot archive","Snapshot-Archiv kann nicht geladen werden",module,Magento_Backup
-"Please correct the password.","Bitte korrigieren Sie das Kennwort.",module,Magento_Backup
+"Please correct the password.","Bitte korrigieren Sie das Passwort.",module,Magento_Backup
+"To complete the rollback, please deselect ""Put store into maintenance mode"" or update your permissions.","Um das Rollback abzuschließen, deaktivieren Sie bitte die Option ""Store in den Wartungsmodus setzen"" oder aktualisieren Sie Ihre Berechtigungen.",module,Magento_Backup
 "We can't find the backup file.","Wir können die Sicherungsdatei nicht finden.",module,Magento_Backup
 "We can't connect to the FTP right now.","Wir können zur Zeit nicht mit FTP verbinden.",module,Magento_Backup
 "Failed to validate FTP.","FTP-Überprüfung fehlgeschlagen.",module,Magento_Backup
@@ -419,20 +420,40 @@ Exclude,Ausschließen,module,Magento_Backup
 "Magento root directory",Magento-Root-Verzeichnis,module,Magento_Backup
 "Create Backup","Backup erstellen",module,Magento_Backup
 Country,Land,module,Magento_Braintree
-"Allowed Credit Card Types","Pflichtangabe der Rechnungsadresse des Kunden",module,Magento_Braintree
+"Allowed Credit Card Types","Zulässige Kreditkartentypen",module,Magento_Braintree
 "Add Rule","Regel hinzufügen",module,Magento_Braintree
-"Braintree Settlement Report","Braintree Abwicklungsbericht",module,Magento_Braintree
+"Braintree Settlement Report","Braintree Verrechnungsbericht",module,Magento_Braintree
 "Sorry, but something went wrong","Verzeihung, aber etwas ist schiefgegangen",module,Magento_Braintree
 "We can't initialize checkout.","Wir konnten den Bestellvorgang nicht initialisieren.",module,Magento_Braintree
+"No authorization transaction to proceed capture.","Keine Autorisierungs-Transaktion, um mit der Erfassung fortzufahren.",module,Magento_Braintree
+"Braintree error response.","Braintree Fehlerantwort.",module,Magento_Braintree
+"Wrong transaction status","Falscher Transaktionsstatus",module,Magento_Braintree
 Authorize,Autorisieren,module,Magento_Braintree
 "Authorize and Capture","Autorisieren und Zahlungseinzug",module,Magento_Braintree
 "--Please Select--","--Bitte wählen--",module,Magento_Braintree
 "Please agree to all the terms and conditions before placing the order.","Bitte lesen und akzeptieren Sie alle AGB, bevor Sie Ihre Bestellung aufgeben.",module,Magento_Braintree
+"Paypal account",PayPal-Konto,module,Magento_Braintree
+"Coinbase account",Coinbase-Konto,module,Magento_Braintree
+"Europe bank account","Europäisches Bankkonto",module,Magento_Braintree
 "Credit card",Kreditkarte,module,Magento_Braintree
+"Authorization expired","Autorisierung abgelaufen",module,Magento_Braintree
+Authorized,Autorisiert,module,Magento_Braintree
+Failed,Fehlgeschlagen,module,Magento_Braintree
+Settled,Verrechnet,module,Magento_Braintree
+Settling,Verrechnen,module,Magento_Braintree
+"Submitted for settlement","Übermittelt für Verrechnung",module,Magento_Braintree
+"Settlement declined","Verrechnung abgelehnt",module,Magento_Braintree
+"Settlement pending","Verrechnung ausstehend",module,Magento_Braintree
+"Settlement confirmed","Verrechnung bestätigt",module,Magento_Braintree
 "Credit Card Type",Kreditkartentyp,module,Magento_Braintree
 "Credit Card Number",Kreditkartennummer,module,Magento_Braintree
+"Please, enter valid Credit Card Number","Bitte geben Sie eine gültige Kreditkartennummer ein",module,Magento_Braintree
 "Expiration Date",Ablaufdatum,module,Magento_Braintree
+"Please, enter valid Expiration Date","Bitte geben Sie ein gültiges Ablaufdatum ein",module,Magento_Braintree
 "Card Verification Number",Kartenprüfnummer,module,Magento_Braintree
+"Please, enter valid Card Verification Number","Bitte geben Sie eine gültige Kartenprüfnummer ein",module,Magento_Braintree
+ending,endet,module,Magento_Braintree
+expires,"läuft ab",module,Magento_Braintree
 "Percent Discount","Prozent Rabatt",module,Magento_Bundle
 "-- Select --",--Auswählen--,module,Magento_Bundle
 Dynamic,Dynamisch,module,Magento_Bundle
@@ -3927,9 +3948,10 @@ Remove,Entfernen,theme,frontend/Magento/luma
 "Clear All","Alles löschen",theme,frontend/Magento/luma
 "Shopping Options",Shopping-Möglichkeiten,theme,frontend/Magento/luma
 "Place Order","Jetzt kaufen",module,Magento_Authorizenet
-"Credit Card Information",Kreditkarten-Informationen,module,Magento_Braintree
+"Credit Card Information",Kreditkarten-Information,module,Magento_Braintree
 "What is this?","Was ist das?",module,Magento_Braintree
-"Place Order","Jetzt kaufen",module,Magento_Braintree
+"Save for later use.","Für die spätere Verwendung speichern.",module,Magento_Braintree
+"Place Order","Bestellung aufgeben",module,Magento_Braintree
 "Attention: Captcha is case sensitive.","Achtung: Groß-/Kleinschreibung des Captcha beachten.",module,Magento_Captcha
 "Payment Transaction Failed","Zahlungsvorgang fehlgeschlagen",module,Magento_Checkout
 Reason,Grund,module,Magento_Checkout
@@ -4057,6 +4079,8 @@ Footer,Fußzeile,theme,frontend/Magento/luma
 "Your shipping confirmation is below. Thank you again for your business.","Ihre Versandbestätigung sehen sie unten. Vielen Dank für Ihre Bestellung.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","Ihr Paket #%shipment_id für die Bestellung #%order_id",theme,frontend/Magento/luma
 "Update to your %store_name shipment","Aktualisierung für Ihre %store_name Sendung",theme,frontend/Magento/luma
+"This payment is not available","Diese Zahlung ist nicht verfügbar",module,Magento_Braintree
+"Please try again with another form of payment.","Bitte versuchen Sie es erneut mit einem anderen Zahlungsmittel.",module,Magento_Braintree
 "Add Products to New Option","Füge Artikel zur neuen Option hinzu",module,Magento_Bundle
 "Add Products to Option ""%1""","Füge Artikel zur Option ""%1"" hinzu",module,Magento_Bundle
 "Warning message",Warnmeldung,module,Magento_Catalog
@@ -4221,18 +4245,32 @@ Security,Sicherheit,module,Magento_Backend
 "Enable Charts","Charts aktivieren",module,Magento_Backend
 "Url Options",Url-Optionen,module,Magento_Backend
 "Add Store Code to Urls","Füge Store-Code zu Urls hinzu",module,Magento_Backend
+"Auto-redirect to Base URL","Automatische Umleitung zu Basis-URL",module,Magento_Backend
 "Search Engine Optimization",Suchmaschinenoptimierung,module,Magento_Backend
+"Use Web Server Rewrites","Webserver-Rewrites verwenden",module,Magento_Backend
 "Base URLs",Basis-URLs,module,Magento_Backend
 "Base URL",Basis-URL,module,Magento_Backend
 "Specify URL or {{base_url}} placeholder.","Spezifische URL oder {{base_url}} Platzhalter.",module,Magento_Backend
 "Base Link URL",Basis-Link-URL,module,Magento_Backend
+"Base URL for Static View Files","Basis-URL für statische Dateien",module,Magento_Backend
+"May be empty or start with {{unsecure_base_url}} placeholder.","Kann leer sein oder mit Platzhalter {{unsecure_base_url}} beginnen.",module,Magento_Backend
+"Base URL for User Media Files","Basis-URL für Benutzer-Mediendateien",module,Magento_Backend
 "Base URLs (Secure)","Basis-URLs (Sicherheit)",module,Magento_Backend
 "Secure Base URL","Sichere Basis-URL",module,Magento_Backend
+"Specify URL or {{base_url}}, or {{unsecure_base_url}} placeholder.","URL oder Platzhalter {{base_url}} bzw. {{unsecure_base_url}} angeben.",module,Magento_Backend
 "Secure Base Link URL","Sichere Basis Link-URL",module,Magento_Backend
+"Secure Base URL for Static View Files","Sichere Basis-URL für statische Dateien",module,Magento_Backend
+"May be empty or start with {{secure_base_url}}, or {{unsecure_base_url}} placeholder.","Kann leer sein oder mit Platzhalter {{secure_base_url}} bzw. {{unsecure_base_url}} beginnen.",module,Magento_Backend
+"Secure Base URL for User Media Files","Sichere Basis-URL für Benutzer-Mediendateien",module,Magento_Backend
+"Use Secure URLs on Storefront","Sichere URLs in Storefront verwenden",module,Magento_Backend
+"Use Secure URLs in Admin","Sichere URLs im Administrationsbereich benutzen",module,Magento_Backend
+"Enable HTTP Strict Transport Security (HSTS)","HTTP Strict Transport Security (HSTS) aktivieren",module,Magento_Backend
+"Upgrade Insecure Requests","Unsichere Anfragen nachrüsten",module,Magento_Backend
 "Offloader header","Offloader Header",module,Magento_Backend
 "Default Pages",Standardseiten,module,Magento_Backend
 "Default Web URL",Standard-Web-URL,module,Magento_Backend
 "Default No-route URL","Standard No-Route-URL",module,Magento_Backend
+"Session Validation Settings","Einstellungen für Sitzungsüberprüfung",module,Magento_Backend
 "Validate REMOTE_ADDR","REMOTE_ADDR validieren",module,Magento_Backend
 "Validate HTTP_VIA","HTTP_VIA validieren",module,Magento_Backend
 "Validate HTTP_X_FORWARDED_FOR","HTTP_X_FORWARDED_FOR validieren",module,Magento_Backend
@@ -4244,11 +4282,16 @@ Description,Beschreibung,module,Magento_Backend
 Tags,Schlagwörter,module,Magento_Backend
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading""> 404-Fehler</h1> <p>Seite nicht gefunden.</p>",module,Magento_Backend
 "Community Edition",Community-Edition,module,Magento_Backend
+"Default Theme",Standard-Thema,module,Magento_Backend
+"Applied Theme","Angewendetes Theme",module,Magento_Backend
+"If no value is specified, the system default is used. The system default may be modified by third party extensions.","Wenn kein Wert angegeben ist, wird die Standardeinstellung des Systems verwendet. Die Standardeinstellung des Systems kann durch Erweiterungen von Drittanbietern geändert werden.",module,Magento_Backend
 "Design Rule","Design Regel",module,Magento_Backend
+"User Agent Rules",User-Agent-Regeln,module,Magento_Backend
 Pagination,Paginierung,module,Magento_Backend
 "How many links to display at once.","Wie viele Links auf einmal angezeigen.",module,Magento_Backend
 "Anchor Text for Previous","Anchor-Text für Vorherige",module,Magento_Backend
 "Anchor Text for Next","Anchor-Text für Nachfolgende",module,Magento_Backend
+"Theme Name",Theme-Name,module,Magento_Backend
 Rollback,Wiederherstellung,module,Magento_Backup
 "Scheduled Backup Settings","Einstellungen für geplante Sicherungen",module,Magento_Backup
 "Enable Scheduled Backup","Geplante Sicherungen aktivieren",module,Magento_Backup
@@ -4263,15 +4306,28 @@ Size(bytes),"Größe (Bytes)",module,Magento_Backup
 Type,Art,module,Magento_Backup
 Download,Herunterladen,module,Magento_Backup
 Action,Aktion,module,Magento_Backup
+&nbsp;,&#160;,module,Magento_Braintree
 Title,Titel,module,Magento_Braintree
 Environment,Umgebung,module,Magento_Braintree
 "Payment Action",Zahlungsvorgang,module,Magento_Braintree
-"Merchant ID","Verkäufer ID",module,Magento_Braintree
+"Merchant ID",Händler-ID,module,Magento_Braintree
+"Public Key","Öffentlicher Schlüssel",module,Magento_Braintree
+"Private Key","Privater Schlüssel",module,Magento_Braintree
+"Advanced Braintree Settings","Erweiterte Braintree-Einstellungen",module,Magento_Braintree
+"Merchant Account ID",Händler-Konto-ID,module,Magento_Braintree
 "Credit Card Types",Kreditkartentypen,module,Magento_Braintree
 "Sort Order",Sortierreihenfolge,module,Magento_Braintree
+"Country Specific Settings","Länderspezifische Einstellungen",module,Magento_Braintree
 "Payment from Applicable Countries","Zahlung von bestimmten Ländern",module,Magento_Braintree
 "Payment from Specific Countries","Zahlung aus bestimmten Ländern",module,Magento_Braintree
+"Country Specific Credit Card Types","Länderspezifische Kreditkartentypen",module,Magento_Braintree
+"Payment Type",Zahlungsart,module,Magento_Braintree
 Type,Art,module,Magento_Braintree
+"Created At","Erstellt am",module,Magento_Braintree
+"Settlement Code",Verrechnungs-Code,module,Magento_Braintree
+"Settlement Response Text",Verrechnungsantwort-Text,module,Magento_Braintree
+"Settlement Batch ID",Verrechnungsschub-ID,module,Magento_Braintree
+Currency,Währung,module,Magento_Braintree
 "Enable CAPTCHA in Admin","CAPTCHA im Admin-Bereich aktivieren",module,Magento_Captcha
 Font,Schriftart,module,Magento_Captcha
 Forms,Formulare,module,Magento_Captcha
