@@ -1269,7 +1269,7 @@ Loading...,"Wird geladen …",module,Magento_Checkout
 "Your order number is: %1.","Ihre Bestellnummer lautet: %1.",module,Magento_Checkout
 "Your order # is: <span>%1</span>.","Ihre Bestellung # ist: <span>%1</span>.",module,Magento_Checkout
 "We'll email you an order confirmation with details and tracking info.","Wir schicken Ihnen eine Bestellbestätigung mit Details und Tracking-Info.",module,Magento_Checkout
-"Static Blocks","WYSIWYG Optionen",module,Magento_Cms
+"Static Blocks","Statische Blöcke",module,Magento_Cms
 "Add New Block","Neuen Block hinzufügen",module,Magento_Cms
 Back,Zurück,module,Magento_Cms
 "Delete Block","Blöck löschen",module,Magento_Cms
@@ -2018,6 +2018,7 @@ Reset,Zurücksetzen,module,Magento_Email
 "New Email Template","Neue EMail-Vorlage",module,Magento_Email
 "Default Config",Standardkonfiguration,module,Magento_Email
 "Template Information",Vorlageninformationen,module,Magento_Email
+"Currently Used For","Derzeit verwendet für",module,Magento_Email
 "Template Name",Vorlagenname,module,Magento_Email
 "Template Subject",Vorlage-Betreff,module,Magento_Email
 "Insert Variable...","Füge Variable ein …",module,Magento_Email
@@ -2205,6 +2206,7 @@ Never,Niemals,module,Magento_Indexer
 "%1 indexer(s) are in ""Update on Save"" mode.","%1 Indexer sind im ""Update on Save"" Modus.",module,Magento_Indexer
 "One or more <a href=""%1"">indexers are invalid</a>. Make sure your <a href=""%2"" target=""_blank"">Magento cron job</a> is running.","Einer oder mehrere <a href=""%1"">Indexer sind wirkungslos</a>. Stellen Sie sicher, dass Ihr <a href=""%2"" target=""_blank"">Magento-Cron-Job</a> ausgeführt wird.",module,Magento_Indexer
 "State for the same indexer","Status für den gleichen Indexer",module,Magento_Indexer
+"Field '%1' not found","Feld '%1' wurde nicht gefunden",module,Magento_Indexer
 "Some Exception Message","Irgendeine Fehlermeldung",module,Magento_Indexer
 Integrations,OAuth,module,Magento_Integration
 "Add New Integration","Neue Integration hinzufügen",module,Magento_Integration
@@ -2287,6 +2289,7 @@ Database,Datenbank,module,Magento_MediaStorage
 "Parent directory does not exist: %1","Übergeordnetes Verzeichnis ist nicht vorhanden: %1",module,Magento_MediaStorage
 "File system",Dateisystem,module,Magento_MediaStorage
 "Unable to save file ""%1"" at ""%2""","Datei ""%1"" kann nicht in ""%2"" gespeichert werden",module,Magento_MediaStorage
+"Wrong file info format","Falsches Dateiinfo-Format",module,Magento_MediaStorage
 "Path ""%value%"" is protected and cannot be used.","Pfad ""%value%"" ist geschützt und kann nicht verwendet werden.",module,Magento_MediaStorage
 "To see product price, add this item to your cart. You can always remove it later.","Um den Preis dieses Artikels zu sehen, legen Sie ihn bitte in Ihren Warenkorb. Sie können ihn später jederzeit wieder aus dem Warenkorb entfernen.",module,Magento_Msrp
 "See price before order confirmation.","Siehe Preis vor Auftragsbestätigung.",module,Magento_Msrp
@@ -2694,6 +2697,7 @@ To,Bis,module,Magento_Reports
 Yes,Ja,module,Magento_Reports
 No,Keine,module,Magento_Reports
 "Empty Rows","Leere Zeilen",module,Magento_Reports
+"Invalid date specified","Ungültiges Datum angegeben",module,Magento_Reports
 Refresh,Aktualisieren,module,Magento_Reports
 "We can't find records for this period.","Keine Datensätze für diesen Zeitraum gefunden.",module,Magento_Reports
 "Show Reviews","Bewertungen anzeigen",module,Magento_Reports
@@ -3530,7 +3534,9 @@ Themes,Begrüßungstext,module,Magento_Theme
 "New Theme","Neues Thema",module,Magento_Theme
 "Custom CSS","Benutzerdefiniertes CSS",module,Magento_Theme
 "Upload CSS File","CSS Datei hochladen",module,Magento_Theme
+"Download CSS File","CSS-Datei herunterladen",module,Magento_Theme
 Manage,Verwalten,module,Magento_Theme
+"Upload Images","Bilder hochladen",module,Magento_Theme
 "This file will replace the current custom.css file and can't be more than 2 MB.","Diese Datei wird die aktuelle custom.css Datei ersetzen und darf nicht mehr als 2 MB groß sein.",module,Magento_Theme
 "Theme Settings",Designeinstellungen,module,Magento_Theme
 "Theme Preview Image",Designvorschaubild,module,Magento_Theme
@@ -3577,6 +3583,7 @@ Hour,Stunde,module,Magento_Theme
 "Add New %1","Neuen %1 hinzufügen",module,Magento_Ui
 "New %1","Neue/r/s %1",module,Magento_Ui
 "Unsupported bookmark action.","Nicht unterstützte Lesezeichen-Aktion.",module,Magento_Ui
+"Parameter ""class"" must be present.","Parameter ""class"" muss vorhanden sein.",module,Magento_Ui
 "Parameter ""sortOrder"" must be present.","Parameter ""SortOrder"" muss vorhanden sein.",module,Magento_Ui
 "Bookmark with id ""%1"" does not exist.","Es existiert kein Lesezeichen mit der ID ""%1"".",module,Magento_Ui
 Cancel,Speichern,module,Magento_Ui
@@ -3661,6 +3668,7 @@ Roles,Rollen,module,Magento_User
 Email,E-Mail,module,Magento_User
 Active,Aktiv,module,Magento_User
 Inactive,Inaktiv,module,Magento_User
+"Role Info",Rolleninfo,module,Magento_User
 "Current User Identity Verification","Identitätsprüfung des Aktuellen Benutzers",module,Magento_User
 "Your Password","Ihr Kennwort",module,Magento_User
 "Add New User","Neuen Benutzer hinzufügen",module,Magento_User
@@ -4005,6 +4013,7 @@ Next,Weiter,module,Magento_Checkout
 "View Details","Details anzeigen",module,Magento_Checkout
 "Contact Form",Kontaktformular,module,Magento_Contact
 "Phone Number: %telephone","Telefonnummer: %telephone",module,Magento_Contact
+"Comment: %comment","Kommentar: %comment",module,Magento_Contact
 "Welcome to %store_name.","Willkommen bei %store_name.",module,Magento_Customer
 Email:,E-Mail:,module,Magento_Customer
 Password:,Passwort:,module,Magento_Customer
