@@ -1491,11 +1491,11 @@ Monthly,Monatlich,module,Magento_Cron
 "Invalid cron expression, expecting 'match/modulus': %1","Ungültiger Cron-Ausdruck, erwarte 'match/modulus' Struktur: %1",module,Magento_Cron
 "Invalid cron expression, expecting numeric modulus: %1","Ungültiger Cron-Ausdruck, erwarte numerischen Modulus: %1",module,Magento_Cron
 "Invalid cron expression, expecting 'from-to' structure: %1","Ungültiger Cron-Ausdruck, erwarte 'von-bis' Struktur: %1",module,Magento_Cron
-"Save Currency Rates","Standard verwenden",module,Magento_CurrencySymbol
+"Save Currency Rates","Wechselkurs speichern",module,Magento_CurrencySymbol
 Options,Optionen,module,Magento_CurrencySymbol
 Reset,Zurücksetzen,module,Magento_CurrencySymbol
 Import,Importieren,module,Magento_CurrencySymbol
-"Manage Currency Rates","Währungskurse verwalten",module,Magento_CurrencySymbol
+"Manage Currency Rates","Wechselkurse bearbeiten",module,Magento_CurrencySymbol
 "Import Service",Import-Service,module,Magento_CurrencySymbol
 "Save Currency Symbols","Währungssymbole speichern",module,Magento_CurrencySymbol
 "Currency Symbols",Währungssymbole,module,Magento_CurrencySymbol
