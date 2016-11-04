@@ -1075,10 +1075,10 @@ Submit,Absenden,module,Magento_Contact
 Daily,Täglich,module,Magento_Cron
 Weekly,Wöchentlich,module,Magento_Cron
 Monthly,Monatlich,module,Magento_Cron
-"Save Currency Rates","Standard verwenden",module,Magento_CurrencySymbol
+"Save Currency Rates","Wechselkurs speichern",module,Magento_CurrencySymbol
 Reset,Zurücksetzen,module,Magento_CurrencySymbol
 Import,Importieren,module,Magento_CurrencySymbol
-"Manage Currency Rates","Währungskurse verwalten",module,Magento_CurrencySymbol
+"Manage Currency Rates","Wechselkurse bearbeiten",module,Magento_CurrencySymbol
 "Import Service",Import-Service,module,Magento_CurrencySymbol
 "Save Currency Symbols","Währungssymbole speichern",module,Magento_CurrencySymbol
 "Currency Symbols",Währungssymbole,module,Magento_CurrencySymbol
