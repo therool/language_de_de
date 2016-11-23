@@ -1312,6 +1312,7 @@ Home,Startseite,module,Magento_Cms
 Blocks,Blöcke,module,Magento_Cms
 "Please correct the data sent.","Bitte korrigieren Sie die gesendeten Daten.",module,Magento_Cms
 "You saved the block.","Sie haben den Block gespeichert.",module,Magento_Cms
+"Something went wrong while saving the block.","Beim Speichern des Blocks ist etwas schief gegangen.",module,Magento_Cms
 "The page has been deleted.","Die Seite wurde gelöscht.",module,Magento_Cms
 "We can't find a page to delete.","Wir können keine Seite zum löschen finden.",module,Magento_Cms
 "This page no longer exists.","Diese Seite existiert nicht mehr.",module,Magento_Cms
@@ -1322,6 +1323,8 @@ Pages,Seiten,module,Magento_Cms
 "A total of %1 record(s) have been disabled.","Insgesamt %1 Eintragung(en) wurden deaktiviert.",module,Magento_Cms
 "A total of %1 record(s) have been enabled.","Insgesamt %1 Eintragung(en) wurden aktiviert.",module,Magento_Cms
 "Page Title","Seiten Titel",module,Magento_Cms
+"You saved the page.","Sie haben die Seite gespeichert.",module,Magento_Cms
+"Make sure that static block content does not reference the block itself.","Stellen Sie sicher, dass statischer Blockinhalt nicht auf den Block selbst verweist.",module,Magento_Cms
 "Enabled by Default","Standardmäßig aktiviert",module,Magento_Cms
 "Disabled by Default","Standardmäßig deaktiviert",module,Magento_Cms
 "Disabled Completely","Komplett deaktiviert",module,Magento_Cms
@@ -1332,6 +1335,7 @@ Pages,Seiten,module,Magento_Cms
 "We cannot delete directory %1.","Verzeichnis %1 kann nicht gelöscht werden.",module,Magento_Cms
 "We can't upload the file right now.","Die Datei kann nicht hochgeladen werden.",module,Magento_Cms
 "We can't delete root directory %1 right now.","Stammverzeichnis %1 kann zur Zeit nicht gelöscht werden.",module,Magento_Cms
+"Privacy and Cookie Policy","Datenschutz- und Cookie-Richtlinie",module,Magento_Cms
 RuntimeException,Laufzeitfehler,module,Magento_Cms
 Exception,Ausnahme,module,Magento_Cms
 "Could not create a directory.","Verzeichnis konnte nicht erstellt werden.",module,Magento_Cms
@@ -4483,6 +4487,7 @@ Template,Vorlage,module,Magento_Cms
 Content,Inhalt,module,Magento_Cms
 "Content Heading",Seiten-Überschrift,module,Magento_Cms
 "Search Engine Optimisation",Suchmaschinenoptimierung,module,Magento_Cms
+"Meta Title","Meta Titel",module,Magento_Cms
 "Meta Keywords",Meta-Schlüsselwörter,module,Magento_Cms
 "Meta Description",Meta-Beschreibung,module,Magento_Cms
 "Layout Update XML","Layout Aktualisierung XML",module,Magento_Cms
