@@ -1403,6 +1403,7 @@ Pages,Seiten,module,Magento_Cms
 "A total of %1 record(s) have been disabled.","Insgesamt %1 Eintragung(en) wurden deaktiviert.",module,Magento_Cms
 "A total of %1 record(s) have been enabled.","Insgesamt %1 Eintragung(en) wurden aktiviert.",module,Magento_Cms
 "You saved this page.","Sie haben diese Seite gespeichert.",module,Magento_Cms
+"Make sure that static block content does not reference the block itself.","Stellen Sie sicher, dass statischer Blockinhalt nicht auf den Block selbst verweist.",module,Magento_Cms
 "Enabled by Default","Standardmäßig aktiviert",module,Magento_Cms
 "Disabled by Default","Standardmäßig deaktiviert",module,Magento_Cms
 "Disabled Completely","Komplett deaktiviert",module,Magento_Cms
