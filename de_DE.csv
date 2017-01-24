@@ -1402,13 +1402,18 @@ Pages,Seiten,module,Magento_Cms
 "Something went wrong while saving the page.","Beim Speichern der Seite ging etwas schief.",module,Magento_Cms
 "A total of %1 record(s) have been disabled.","Insgesamt %1 Eintragung(en) wurden deaktiviert.",module,Magento_Cms
 "A total of %1 record(s) have been enabled.","Insgesamt %1 Eintragung(en) wurden aktiviert.",module,Magento_Cms
+"To apply changes you should fill in hidden required ""%1"" field","Um die Änderungen zu übernehmen, muss das versteckte Feld ""%1"" ausgefüllt werden",module,Magento_Cms
 "You saved this page.","Sie haben diese Seite gespeichert.",module,Magento_Cms
+"The directory %1 is not writable by server.","Der Server verfügt nicht über Schreibrechte für das Verzeichnis %1.",module,Magento_Cms
 "Make sure that static block content does not reference the block itself.","Stellen Sie sicher, dass statischer Blockinhalt nicht auf den Block selbst verweist.",module,Magento_Cms
+"CMS Block with id ""%1"" does not exist.","CMS-Block mit der Id ""%1"" ist nicht vorhanden.",module,Magento_Cms
 "Enabled by Default","Standardmäßig aktiviert",module,Magento_Cms
 "Disabled by Default","Standardmäßig deaktiviert",module,Magento_Cms
 "Disabled Completely","Komplett deaktiviert",module,Magento_Cms
+"CMS Page with id ""%1"" does not exist.","Die CMS-Seite mit der ID ""%1"" existiert nicht.",module,Magento_Cms
 "A block identifier with the same properties already exists in the selected store.","Ein Blockbezeichner mit den selben Einstellungen existiert für den ausgewählten Store bereits.",module,Magento_Cms
 "The page URL key contains capital letters or disallowed symbols.","Der URL-Bezeichner dieser Seite enthält Großbuchstaben oder unerlaubte Symbole.",module,Magento_Cms
+"Please rename the folder using only letters, numbers, underscores and dashes.","Der Name des Ordners darf nur Buchstabe, Ziffern, Unter- und Bindestriche enthalten.",module,Magento_Cms
 "We found a directory with the same name. Please try another folder name.","Wir fanden ein Verzeichnis mit demselben Namen. Bitte versuchen Sie einen anderen Ordnernamen.",module,Magento_Cms
 "We cannot create a new directory.","Wir können kein neues Verzeichnis erstellen.",module,Magento_Cms
 "We cannot delete directory %1.","Verzeichnis %1 kann nicht gelöscht werden.",module,Magento_Cms
@@ -1496,8 +1501,10 @@ Summary,Zusammenfassung,module,Magento_ConfigurableProduct
 "This attribute is used in configurable products.","Dieses Attribut wird in konfigurierbaren Produkten verwendet.",module,Magento_ConfigurableProduct
 "Product has been already attached","Produkt wurde bereits angefügt",module,Magento_ConfigurableProduct
 "Requested option doesn't exist: %1","Angeforderte Option existiert nicht",module,Magento_ConfigurableProduct
+"Option with id ""%1"" not found","Die Option mit der ID ""%1"" konnte nicht gefunden werden",module,Magento_ConfigurableProduct
 "Could not update option with id ""%1""","Die Option mit der Id ""%1"" konnte nicht aktualisiert werden",module,Magento_ConfigurableProduct
 "Product already has this option","Produkt besitzt diese Option bereits",module,Magento_ConfigurableProduct
+"Something went wrong while saving option.","Etwas ist beim Speichern der Option schiefgegangen.",module,Magento_ConfigurableProduct
 "The configurable product does not have any variation attribute.","Das konfigurierbare Produkt hat kein Variations-Attribut.",module,Magento_ConfigurableProduct
 "Product with id ""%1"" does not exist.","Produkt mit Id ""%1"" ist nicht vorhanden.",module,Magento_ConfigurableProduct
 "Products ""%1"" and %2 have the same set of attribute values.","Produkte ""%1"" und %2 haben den gleichen Satz von Attributwerten.",module,Magento_ConfigurableProduct
@@ -4080,6 +4087,7 @@ Submit,Absenden,module,Magento_Catalog
 "unselect all","Auswahl aufheben",module,Magento_Catalog
 "Incl. Tax","Inkl. Steuern",module,Magento_ConfigurableProduct
 Done,Fertig,module,Magento_ConfigurableProduct
+"An attribute has been removed. This attribute will no longer appear in your configurations.","Ein Attribut wurde entfernt. Dieses Attribut wird nicht mehr in Ihrer Konfiguration angezeigt.",module,Magento_ConfigurableProduct
 "Please, fill correct values","Bitte korrekte Werte eingeben",module,Magento_ConfigurableProduct
 "Please, select image(s) for your attribute","Bitte wählen Sie Bild(er) für die Attribute",module,Magento_ConfigurableProduct
 "Please choose image(s)","Bitte Bild(er) auswählen",module,Magento_ConfigurableProduct
@@ -4526,6 +4534,7 @@ Emails,E-Mails,module,Magento_Email
 "Logo Image",Logo,module,Magento_Email
 "Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","Erlaubte Dateitypen: jpg, jpeg, gif, png. Um das Logo für hochauflösende Displays zu optimieren, laden Sie ein Bild mit der dreifachen Originalgröße hoch und setzen Sie die einfachen Abmessungen in die folgenden Breite/Höhe-Felder ein.",module,Magento_Email
 "Only necessary if image has been uploaded above. Enter number of pixels, without appending ""px"".","Wird nur benötigt, wenn ein Bild oberhalb hochgeladen wurde. Geben Sie die Anzahl der Pixel ein, ohne folgendes ""px"".",module,Magento_Email
+"Logo Height",Logo-Höhe,module,Magento_Email
 "No Templates Found",Vorlagentyp,module,Magento_Email
 ID,Id,module,Magento_Email
 Added,Hinzugefügt,module,Magento_Email
