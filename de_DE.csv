@@ -324,7 +324,6 @@ Hour,Stunde,module,Magento_Backend
 "JavaScript may be disabled in your browser.","JavaScript ist in Ihrem Browser womöglich deaktiviert.",module,Magento_Backend
 "To use this website you must first enable JavaScript in your browser.","Um diese Webseite zu benutzen müssen Sie zuerst JavaScript in Ihrem Browser aktivieren.",module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Dies ist eine Demo-Installation. Jegliche Bestellung in diesem Shop wird weder beachtet noch ausgeführt.",module,Magento_Backend
-"Report Bugs","Fehler melden",module,Magento_Backend
 "Store View:",Shop-Ansicht:,module,Magento_Backend
 "Stores Configuration","Stores Konfiguration",module,Magento_Backend
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Bitte bestätigen Sie den Bereichswechsel. Alle Daten, die noch nicht gespeichert wurden, gehen verloren.",module,Magento_Backend
@@ -441,6 +440,8 @@ Authorize,Autorisieren,module,Magento_Braintree
 "Please, enter valid Card Verification Number","Bitte geben Sie eine gültige Kartenprüfnummer ein",module,Magento_Braintree
 ending,endet,module,Magento_Braintree
 expires,"läuft ab",module,Magento_Braintree
+Actions,Aktionen,module,Magento_Braintree
+Delete,Löschen,module,Magento_Braintree
 "Percent Discount","Prozent Rabatt",module,Magento_Bundle
 "-- Select --",--Auswählen--,module,Magento_Bundle
 Dynamic,Dynamisch,module,Magento_Bundle
@@ -541,7 +542,6 @@ Always,Immer,module,Magento_Captcha
 "Please type the letters below","Geben Sie bitte die unten stehenden Buchstaben ein",module,Magento_Captcha
 "Entity type model '%1' is not found","Entity Type Model '%1' konnte nicht gefunden werden",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Entitätsmodell Typ muss eine Instanz des \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType sein",module,Magento_CatalogImportExport
-"Entity type model must be an instance of Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType","Entity Type Model muss eine Instanz von Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType sein",module,Magento_CatalogImportExport
 "Category ""%1"" has not been created.","Kategorie ""%1"" wurde nicht erstellt.",module,Magento_CatalogImportExport
 "File directory '%1' is not writable.","Dateiverzeichnis '%1' ist nicht beschreibbar.",module,Magento_CatalogImportExport
 "Value for 'price' sub attribute in 'store' attribute contains incorrect value","Wert für 'price'-Unterattribut in 'store'-Attribut enthält ungültigen Wert",module,Magento_CatalogImportExport
@@ -836,7 +836,6 @@ Categories,Kategorien,module,Magento_Catalog
 "Category is not available for requested store.","Kategorie ist nicht für den angeforderten Store verfügbar.",module,Magento_Catalog
 "There was a category move error. %1","Ist ein Fehler aufgetreten beim Verschieben der Kategorie. %1",module,Magento_Catalog
 "There was a category move error.","Ist ein Fehler aufgetreten beim Verschieben der Kategorie.",module,Magento_Catalog
-"You moved the category","Sie haben die Kategorie verschoben",module,Magento_Catalog
 "Attribute ""%1"" is required.","Attribut ""%1"" ist erforderlich.",module,Magento_Catalog
 "You saved the category.","Sie haben die Kategorie gespeichert.",module,Magento_Catalog
 "Something went wrong while saving the category.","Beim Speichern der Kategorie ging etwas schief.",module,Magento_Catalog
@@ -959,7 +958,6 @@ Disabled,Deaktiviert,module,Magento_Catalog
 "The image does not exist.","Das Bild ist nicht vorhanden.",module,Magento_Catalog
 "Please correct the image file type.","Bitte korrigieren Sie den Bilddateityp.",module,Magento_Catalog
 "We couldn't move this file: %1.","Die Datei %1 konnte nicht verschoben werden.",module,Magento_Catalog
-"We can't find the image file.","Bilddatei konnte nicht gefunden werden.",module,Magento_Catalog
 "Could not remove custom option","Benutzerdefinierte Option konnte nicht entfernt werden.",module,Magento_Catalog
 "Please specify date required option(s).","Bitte geben Sie die Datums Option(en) ein.",module,Magento_Catalog
 "Please specify time required option(s).","Bitte geben Sie die Zeit Option(en) ein.",module,Magento_Catalog
@@ -1222,7 +1220,6 @@ Checkout,Kasse,module,Magento_Checkout
 "Error message!",Fehlermeldung!,module,Magento_Checkout
 Error!,Fehler!,module,Magento_Checkout
 "DB exception","Fehler in der Datenbank",module,Magento_Checkout
-"Wrong minimum amount.","Fehlerhafter Mindestbetrag.",module,Magento_Checkout
 Message,Nachricht,module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Beleg drucken</a>",module,Magento_Checkout
 "Apply Discount Code","Gutscheincode anwenden",module,Magento_Checkout
@@ -1336,9 +1333,6 @@ Exception,Ausnahme,module,Magento_Cms
 "All Store Views","Alle Ladenansichte",module,Magento_Cms
 Edit,Bearbeiten,module,Magento_Cms
 Delete,Löschen,module,Magento_Cms
-"Delete ${ $.$data.title }","Löschen ${ $.$data.title }",module,Magento_Cms
-"Are you sure you wan't to delete a ${ $.$data.title } record?","Wollen Sie den Datensatz ${ $.$data.title } löschen?",module,Magento_Cms
-"Delete ""${ $.$data.title }""","Löschen ""${ $.$data.title }""",module,Magento_Cms
 View,Ansicht,module,Magento_Cms
 px.,aufklappen,module,Magento_Cms
 "No files found","Keine Dateien gefunden",module,Magento_Cms
@@ -1433,7 +1427,6 @@ Weight,Gewicht,module,Magento_ConfigurableProduct
 Actions,Aktionen,module,Magento_ConfigurableProduct
 "Associated Products","Verknüpfte Produkte",module,Magento_ConfigurableProduct
 "Step 2: Attribute Values","Schritt 2: Attributwerte",module,Magento_ConfigurableProduct
-"Select values from each attribute to include in this product. Each unique combination of values creates a unigue product SKU.","Wählen Sie Werte aus jedem Attribute, das in diesem Artikel enthalten ist. Jede eindeutige Kombination von Werten erstellt eine eindeutige Artikelnummer.",module,Magento_ConfigurableProduct
 "Sort Variations","Variationen sortieren",module,Magento_ConfigurableProduct
 Options,Optionen,module,Magento_ConfigurableProduct
 "Select All","Alles auswählen",module,Magento_ConfigurableProduct
@@ -1674,13 +1667,6 @@ Customers,Kunden,module,Magento_Customer
 "The password can't begin or end with a space.","Das Passwort darf nicht mit einem Leerzeichen beginnen oder enden.",module,Magento_Customer
 "This customer already exists in this store.","Dieser Kunde ist bereits in diesem Store vorhanden.",module,Magento_Customer
 "A customer with the same email already exists in an associated website.","Ein Kunde mit der gleichen e-Mail existiert bereits in einer zugeordneten Website.",module,Magento_Customer
-"Please enter the first name.","Bitte geben Sie den Nachnamen an.",module,Magento_Customer
-"Please enter the last name.","Bitte geben Sie den Nachnamen ein.",module,Magento_Customer
-"Please enter the street.","Bitte geben Sie die PLZ an.",module,Magento_Customer
-"Please enter the city.","Bitte geben Sie die Stadt ein.",module,Magento_Customer
-"Please enter the phone number.","Bitte geben Sie die Telefonnummer ein.",module,Magento_Customer
-"Please enter the zip/postal code.","Bitte geben Sie die Postleitzahl ein.",module,Magento_Customer
-"Please enter the country.","Bitte geben Sie das Land ein.",module,Magento_Customer
 "Please enter the state/province.","Geben Sie ein Bundesland/Gebiet ein.",module,Magento_Customer
 "Per Website","Pro Website",module,Magento_Customer
 "We can't share customer accounts globally when the accounts share identical email addresses on more than one website.","Wir können Kundenkonten nicht global verwenden, wenn die Konten identische e-Mail-Adressen auf mehr als einer Website haben.",module,Magento_Customer
@@ -2924,7 +2910,6 @@ Discount,Rabatt,module,Magento_SalesRule
 "To Percentage","zu Prozentsatz",module,Magento_SalesRule
 Subtotal,Zwischensumme,module,Magento_SalesRule
 "Total Weight",Gesamtgewicht,module,Magento_SalesRule
-"Payment Method",Zahlungsart,module,Magento_SalesRule
 "Shipping Method",Versandart,module,Magento_SalesRule
 "Conditions Combination",Bedingungs-Kombination,module,Magento_SalesRule
 "Product Attribute",Artikelattribut,module,Magento_SalesRule
@@ -3632,10 +3617,7 @@ Description,Beschreibung,module,Magento_UrlRewrite
 "URL Rewrite Management","URL-Rewrite Management",module,Magento_UrlRewrite
 "Add URL Rewrite","URL-Rewrite hinzufügen",module,Magento_UrlRewrite
 Custom,Benutzerdefiniert,module,Magento_UrlRewrite
-"For category","Für Kategorie",module,Magento_UrlRewrite
-"For product","Für Produkt",module,Magento_UrlRewrite
 "For CMS page","Für CMS-Seite",module,Magento_UrlRewrite
-"Create URL Rewrite:","URL-Rewrite erstellen:",module,Magento_UrlRewrite
 "You deleted the URL rewrite.","URL-Rewrite wurde gelöscht.",module,Magento_UrlRewrite
 "We can't delete URL Rewrite right now.","Dieser URL-Rewrite kann nicht sofort gelöscht werden.",module,Magento_UrlRewrite
 "The product you chose is not associated with the selected store or category.","Das ausgewählte Produkt ist nicht dem ausgewählten Shop oder Kategorie zugeordnet.",module,Magento_UrlRewrite
@@ -3744,7 +3726,6 @@ All,Alle,module,Magento_User
 "Priority Mail Regional Rate Box A","Regionale Rate Mail Priorität A",module,Magento_Usps
 Letter,Brief,module,Magento_Usps
 Flat,Linear,module,Magento_Usps
-"Flat-Rate Box","Pauschale Box",module,Magento_Usps
 "Flat-Rate Envelope","Pauschale Umschlag",module,Magento_Usps
 Rectangular,Rechteckig,module,Magento_Usps
 Non-rectangular,Nicht-rechteckige,module,Magento_Usps
@@ -3979,12 +3960,8 @@ Cancel,Speichern,module,Magento_Checkout
 "You can create an account after checkout.","Nach dem Kauf können Sie ein Benutzerkonto erstellen.",module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.","Sie haben bereits ein Konto bei uns. Melden Sie sich an oder kaufen Sie als Gast bei uns ein.",module,Magento_Checkout
 Login,Anmelden,module,Magento_Checkout
-Close,Schließen,module,Magento_Checkout
 item,Artikel,module,Magento_Checkout
 items,Artikel,module,Magento_Checkout
-"Go to Checkout","Zur Kasse gehen",module,Magento_Checkout
-"Recently added item(s)","Kürzlich hinzugefügte Artikel",module,Magento_Checkout
-"View and edit cart","Warenkorb anzeigen und bearbeiten",module,Magento_Checkout
 "See Details","Details anzeigen",module,Magento_Checkout
 Remove,Entfernen,module,Magento_Checkout
 "Payment Information",Zahlungsinformation,module,Magento_Checkout
@@ -4004,8 +3981,6 @@ edit,bearbeiten,module,Magento_Checkout
 "Carrier Title",Bezeichnung,module,Magento_Checkout
 Next,Weiter,module,Magento_Checkout
 "Order Summary",Bestellübersicht,module,Magento_Checkout
-"Item in Cart","Artikel im Warenkorb",module,Magento_Checkout
-"Items in Cart","Artikel im Warenkorb",module,Magento_Checkout
 "View Details","Details anzeigen",module,Magento_Checkout
 "Contact Form",Kontaktformular,module,Magento_Contact
 "Phone Number: %telephone","Telefonnummer: %telephone",module,Magento_Contact
@@ -4016,7 +3991,10 @@ Password:,Passwort:,module,Magento_Customer
 "Password you set when creating account","Passwort, das beim Erstellen des Kontos festgelegt wurde",module,Magento_Customer
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Passwort vergessen? Klicken Sie <a href=""%reset_url""> hier</a> um es zurückzusetzen.",module,Magento_Customer
 "View past orders","Frühere Bestellungen anzeigen",module,Magento_Customer
+"Store alternative addresses (for shipping to multiple family members and friends)","Alternative Lieferadressen speichern (für den Versand an mehrere Familienmitglieder und Freunde)",module,Magento_Customer
+"To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","Um sich bei uns zu registrieren und ein Benutzerkonto anzulegen, benutzten Sie bitte folgenden <a href=""%create_password_url"">link</a>:",module,Magento_Customer
 "Email Address",E-Mailadresse,module,Magento_Customer
+"Thank you, %store_name","Vielen Dank, %store_name",module,Magento_Email
 To:,Bis:,module,Magento_GiftMessage
 From:,Von:,module,Magento_GiftMessage
 Message:,Nachricht:,module,Magento_GiftMessage
@@ -4032,9 +4010,11 @@ Delete,Löschen,module,Magento_GiftMessage
 "Apply Discount","Rabatt anwenden",module,Magento_SalesRule
 "Thank you for your order from %store_name.","Vielen Dank für Ihre Bestellung bei %store_name.",module,Magento_Sales
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Sie können den Status Ihrer Bestellung überprüfen, indem Sie sich bei <a href=""%account_url"">Ihrem Konto anmelden</a>.",module,Magento_Sales
+"Store alternative addresses (for shipping to multiple family members and friends)","Alternative Lieferadressen speichern (für den Versand an mehrere Familienmitglieder und Freunde)",module,Magento_Theme
 "Changes have been made to this section that have not been saved.","In diesem Abschnitt gibt es ungespeicherte Änderungen.",module,Magento_Ui
 Assign,Zuweisen,module,Magento_Ui
 Options,Optionen,module,Magento_Ui
+"Thank you,","Vielen Dank,",module,Magento_User
 "Take a look at %customer_name's Wish List","Werfen Sie einen Blick auf die Wunschliste von %customer_name",module,Magento_Wishlist
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name möchte diese Wunschliste von %store_name mit Ihnen teilen:",module,Magento_Wishlist
 "Message from %customer_name:","Nachricht von %customer_name:",module,Magento_Wishlist
@@ -4414,7 +4394,6 @@ Content,Inhalt,module,Magento_Catalog
 "Category Image",Kategoriebild,module,Magento_Catalog
 "Display Settings",Anzeigeeinstellungen,module,Magento_Catalog
 "Use All","Verwende alle",module,Magento_Catalog
-"Default Product Sorting","Artikelsortierung (voreingestellt)",module,Magento_Catalog
 "URL Key",URL-Bezeichner,module,Magento_Catalog
 "Meta Title","Meta Titel",module,Magento_Catalog
 "Meta Keywords",Meta-Schlüsselwörter,module,Magento_Catalog
@@ -4828,7 +4807,6 @@ Rate,Satz,module,Magento_Tax
 "Order Total",Bestellsumme,module,Magento_Tax
 "Your credit card will be charged for","Ihre Kreditkarte wird belastet für",module,Magento_Tax
 Empty,Zeige,module,Magento_Theme
-"Reset to Defaults","Auf Standardwerte zurückgesetzt",module,Magento_Theme
 "Default Description",Standardbeschreibung,module,Magento_Theme
 "Favicon Icon",Favicon-Symbol,module,Magento_Theme
 "Default Title",Standardtitel,module,Magento_Theme
