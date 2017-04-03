@@ -950,11 +950,13 @@ Products,Artikel,module,Magento_Catalog
 "You saved the product.","Das Produkt wurde gespeichert.",module,Magento_Catalog
 "SKU for product %1 has been changed to %2.","SKU für Produkt %1 wurde in %2 geändert.",module,Magento_Catalog
 "New Attribute Set","Merkmalgruppe hinzufügen",module,Magento_Catalog
+"The attribute set has been removed.","Das Attributset wurde entfernt.",module,Magento_Catalog
 "We can't delete this set right now.","Dieser Satz kann nicht sofort gelöscht werden.",module,Magento_Catalog
 "New Set","Neues Set",module,Magento_Catalog
 "Manage Product Sets","Produkt-Sets verwalten",module,Magento_Catalog
 "Manage Attribute Sets","Merkmalgruppen verwalten",module,Magento_Catalog
 "This attribute set no longer exists.","Diese Merkmalgruppe gibt es nicht mehr.",module,Magento_Catalog
+"You saved the attribute set.","Das Attributset wurde gespeichert.",module,Magento_Catalog
 "Something went wrong while saving the attribute set.","Beim Speichern des Attributs ist ein Fehler aufgetreten.",module,Magento_Catalog
 "You added product %1 to the comparison list.","Sie haben das Produkt %1 zur Vergleichsliste hinzugefügt.",module,Magento_Catalog
 "You cleared the comparison list.","Sie haben die Vergleichsliste gelöscht.",module,Magento_Catalog
@@ -973,6 +975,7 @@ All,Alle,module,Magento_Catalog
 "We can't move the category because the parent category name matches the child category name.","Wir können die Kategorie nicht verschieben, da der Name der übergeordneten Kategorie mit dem der Kind-Kategorie übereinstimmt.",module,Magento_Catalog
 "Can't delete root category.","Root-Kategorie kann nicht gelöscht werden.",module,Magento_Catalog
 "The value of attribute ""%1"" must be unique.","Der Wert des Attributs ""%1"" muss einmalig sein.",module,Magento_Catalog
+"Default Product Listing Sort by does not exist in Available Product Listing Sort By.","Vorgegebene Produktlistensortierung existiert nicht in der Listensortierung für verfügbare Produkte.",module,Magento_Catalog
 "No layout updates","Keine Layout Aktualisierungen",module,Magento_Catalog
 "Products only","Nur Produkte",module,Magento_Catalog
 "Static block only","Nur statischer Block",module,Magento_Catalog
@@ -1032,6 +1035,8 @@ Category,Kategorie,module,Magento_Catalog
 "Please enter a valid number in this field.","Bitte geben Sie eine gültige Zahl in diesem Feld ein.",module,Magento_Catalog
 "We found a duplicate website, tier price, customer group and quantity.","Wir fanden Webseite, Staffelpreis, Kundengruppe und Menge als Dublette.",module,Magento_Catalog
 "Invalid option id %1","Ungültige Option Id %1",module,Magento_Catalog
+"Can not create attribute set based on non product attribute set.","Attributset kann nicht anhand eines Nicht-Produkt-Attributsets erstellt werden.",module,Magento_Catalog
+"Can not create attribute set based on not existing attribute set","Attributset kann nicht anhand eines nicht existierenden Attributsets erstellt werden.",module,Magento_Catalog
 "Use config","Konfiguration verwenden",module,Magento_Catalog
 Enabled,Aktiviert,module,Magento_Catalog
 Disabled,Deaktiviert,module,Magento_Catalog
@@ -2129,9 +2134,14 @@ Unknown,Unbekannt,module,Magento_Email
 "We can't delete email template data right now. Please review log and try again.","Wir können nicht EMail-Vorlage jetzt löschen. Bitte überprüfen Sie das Log und versuchen es erneut.",module,Magento_Email
 "We can't find an email template to delete.","Wir können die zu löschende EMail-Vorlage nicht finden.",module,Magento_Email
 "Edit Template","Vorlage bearbeiten",module,Magento_Email
+"Edit System Template","Systemvorlage bearbeiten",module,Magento_Email
 "New Template","Neue Vorlage",module,Magento_Email
+"New System Template","Neue Systemvorlage",module,Magento_Email
 "Email Templates",E-Mail-Vorlagen,module,Magento_Email
 "Email Preview",EMail-Vorschau,module,Magento_Email
+"An error occurred. The email template can not be opened for preview.","Es ist ein Fehler aufgetreten. Die E-Mail-Vorlage kann nicht für die Vorschau geöffnet werden.",module,Magento_Email
+"This email template no longer exists.","Diese E-Mail-Vorlage existiert nicht mehr.",module,Magento_Email
+"You saved the email template.","Sie haben die E-Mail-Vorlage gespeichert.",module,Magento_Email
 "Base Unsecure URL","Unsichere Basis-URL",module,Magento_Email
 "Base Secure URL","Sichere Basis-URL",module,Magento_Email
 "General Contact Name","Allgemeine Kontakt Name",module,Magento_Email
@@ -2145,10 +2155,18 @@ Region/State,Region/Bundesland,module,Magento_Email
 City,Stadt,module,Magento_Email
 "Street Address 1","Anschrift 1",module,Magento_Email
 "Street Address 2","Anschrift 2",module,Magento_Email
+"Template Variables",Vorlagenvariablen,module,Magento_Email
+"Please enter a template name.","Bitte geben Sie einen Vorlagennamen ein.",module,Magento_Email
+"Duplicate Of Template Name","Duplikat des Vorlagennamens",module,Magento_Email
 """file"" parameter must be specified","""file"" Parameter muss angegeben werden",module,Magento_Email
 """file"" parameter must be specified and must not be empty","""file"" Parameter muss angegeben werden und darf nicht leer sein",module,Magento_Email
+"Error filtering template: %s","Fehler beim Filtern der Vorlage: %s",module,Magento_Email
+"Invalid sender data","Ungültige Absenderinformationen",module,Magento_Email
 Title,Titel,module,Magento_Email
+"Load default template","Standardvorlage laden",module,Magento_Email
 Template,Vorlage,module,Magento_Email
+"Are you sure you want to delete this template?","Sind Sie sicher, dass Sie diese Vorlage löschen möchten?",module,Magento_Email
+"The template did not load. Please review the log for details.","Die Vorlage wurde nicht geladen. Bitte überprüfen Sie das Protokoll für Details.",module,Magento_Email
 "Change Encryption Key",Verschlüsselungpasswort,module,Magento_EncryptionKey
 "Encryption Key",Verschlüsselungsschlüssel,module,Magento_EncryptionKey
 "New Encryption Key","Neuer Verschlüsselungsschlüssel",module,Magento_EncryptionKey
@@ -4160,7 +4178,9 @@ Advanced,Erweitert,module,Magento_Backend
 "User-Agent Exceptions",Benutzer-Agent-Ausnahmen,module,Magento_Backend
 "Find a string in client user-agent header and switch to specific design theme for that browser.","Eine Zeichenfolge im Client user-agent Header finden und ein spezifisches Design für diesen Browser laden.",module,Magento_Backend
 Pagination,Paginierung,module,Magento_Backend
+"Pagination Frame",Paginierungsrahmen,module,Magento_Backend
 "How many links to display at once.","Wie viele Links auf einmal angezeigen.",module,Magento_Backend
+"Pagination Frame Skip","Paginierungsrahmen überspringen",module,Magento_Backend
 "If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.","Wenn die aktuelle Rahmenposition die größten Seiten nicht abdeckt, wird der Link zur aktuellen Position plus/minus dieses Wertes gerendert.",module,Magento_Backend
 "Anchor Text for Previous","Anchor-Text für Vorherige",module,Magento_Backend
 "Alternative text for previous link in pagination menu. If empty, default arrow image will used.","Alternativer Text für ""zurück""-Link im Menü für die Seitennummerierung. Wenn leer, wird vorgegebene Pfeil-Grafik verwendet.",module,Magento_Backend
@@ -4539,11 +4559,14 @@ Emails,E-Mails,module,Magento_Email
 "Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","Erlaubte Dateitypen: jpg, jpeg, gif, png. Um das Logo für hochauflösende Displays zu optimieren, laden Sie ein Bild mit der dreifachen Originalgröße hoch und setzen Sie die einfachen Abmessungen in die folgenden Breite/Höhe-Felder ein.",module,Magento_Email
 "Only necessary if image has been uploaded above. Enter number of pixels, without appending ""px"".","Wird nur benötigt, wenn ein Bild oberhalb hochgeladen wurde. Geben Sie die Anzahl der Pixel ein, ohne folgendes ""px"".",module,Magento_Email
 "Logo Height",Logo-Höhe,module,Magento_Email
+"Header Template",Kopfzeilenvorlage,module,Magento_Email
+"Footer Template",Fußzeilenvorlage,module,Magento_Email
 "No Templates Found",Vorlagentyp,module,Magento_Email
 ID,Id,module,Magento_Email
 Added,Hinzugefügt,module,Magento_Email
 Updated,Aktualisiert,module,Magento_Email
 Subject,Betreff,module,Magento_Email
+"Template Type",Vorlagentyp,module,Magento_Email
 Action,Aktion,module,Magento_Email
 "Enabled for Checkout","Bearbeitungsgebühr hinzugefügt",module,Magento_Fedex
 Title,Titel,module,Magento_Fedex
