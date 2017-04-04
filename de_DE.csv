@@ -1222,6 +1222,7 @@ Checkout,Kasse,module,Magento_Checkout
 "Quantity was recalculated from %1 to %2","Menge wurde von %1 zu %2 geändert",module,Magento_Checkout
 "Display number of items in cart","Zeige Anzahl der Produkte im Warenkorb",module,Magento_Checkout
 "Display item quantities","Zeige Artikelanzahl",module,Magento_Checkout
+"An error occurred on the server. Please try to place the order again.","Ein Serverfehler ist aufgetreten. Bitte geben Sie die Bestellung erneut auf.",module,Magento_Checkout
 "Shipping address is not set","Lieferadresse ist nicht festgelegt.",module,Magento_Checkout
 "Unable to save shipping information. Please check input data.","Versandinformationen können nicht gespeichert werden. Bitte überprüfen Sie Ihre Eingaben.",module,Magento_Checkout
 "Shipping method is not applicable for empty cart","Diese Versandart ist bei einem leeren Warenkorb nicht anwendbar",module,Magento_Checkout
@@ -4103,6 +4104,7 @@ Submit,Absenden,module,Magento_Catalog
 "Choose existing category.","Eine bestehende Kategorie auswählen.",module,Magento_Catalog
 Added,Hinzugefügt,module,Magento_Catalog
 "unselect all","Auswahl aufheben",module,Magento_Catalog
+"Provided Zip/Postal Code seems to be invalid.","Die angegebene Postleitzahl ist ungültig.",module,Magento_Checkout
 "Review & Payments","Prüfung & Zahlung",module,Magento_Checkout
 Shipping,Versand,module,Magento_Checkout
 "Save Address","Adresse speichern",module,Magento_Checkout
@@ -4455,6 +4457,7 @@ Overview,Übersicht,module,Magento_Catalog
 "Send Payment Failed Email Copy To","Kopie der E-Mails über fehlgeschlagene Zahlung senden an",module,Magento_Checkout
 "Separate by "","".","Trennen durch "","".",module,Magento_Checkout
 "Send Payment Failed Email Copy Method","Versandart der Kopie der E-Mails über fehlgeschlagene Zahlung",module,Magento_Checkout
+Summary,Zusammenfassung,module,Magento_Checkout
 "Order Total",Bestellsumme,module,Magento_Checkout
 "We'll send your order confirmation here.","Hierhin werden wir Ihnen Ihre Bestellbestätigung schicken.",module,Magento_Checkout
 Payment,Zahlung,module,Magento_Checkout
