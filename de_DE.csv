@@ -1083,6 +1083,7 @@ px.,aufklappen,module,Magento_Catalog
 "Not Visible Individually","Einzeln nicht sichtbar",module,Magento_Catalog
 Search,Suche,module,Magento_Catalog
 "Catalog, Search","Katalog, Suche",module,Magento_Catalog
+"Something went wrong while removing products from the websites.","Beim Entfernen von Produkten aus den Websites ist etwas schief gegangen.",module,Magento_Catalog
 "Product with SKU %1 is not linked to product with SKU %2","Produkt mit SKU %1 ist nicht mit Produkt mit SKU %2 verknüpft",module,Magento_Catalog
 "Product %1 doesn't have linked %2 as %3","Produkt %1 hat %2 nicht als %3 verknüpft",module,Magento_Catalog
 "Requested product doesn't exist","Angefordertes Produkt existiert nicht",module,Magento_Catalog
@@ -4307,6 +4308,7 @@ Download,Herunterladen,module,Magento_Backup
 Action,Aktion,module,Magento_Backup
 Rollback,Wiederherstellung,module,Magento_Backup
 &nbsp;,&#160;,module,Magento_Braintree
+"Basic Braintree Settings","Einfache Braintree-Einstellungen",module,Magento_Braintree
 Title,Titel,module,Magento_Braintree
 Environment,Umgebung,module,Magento_Braintree
 "Payment Action",Zahlungsvorgang,module,Magento_Braintree
@@ -4321,6 +4323,7 @@ Environment,Umgebung,module,Magento_Braintree
 "Allow Duplicate Cards","doppelte Karten ermöglichen",module,Magento_Braintree
 "Credit Card Types",Kreditkartentypen,module,Magento_Braintree
 "Enable Credit Card auto-detection on Storefront","automatische Erkennung der Kreditkarten aktivieren",module,Magento_Braintree
+"Advanced Fraud Protection","Erweiterter Betrugsschutz",module,Magento_Braintree
 "Your Kount ID","Ihre Kount-ID",module,Magento_Braintree
 "Use Cache","Cache verwenden",module,Magento_Braintree
 "Sort Order",Sortierreihenfolge,module,Magento_Braintree
@@ -4328,6 +4331,9 @@ Environment,Umgebung,module,Magento_Braintree
 "Payment from Applicable Countries","Zahlung von bestimmten Ländern",module,Magento_Braintree
 "Payment from Specific Countries","Zahlung aus bestimmten Ländern",module,Magento_Braintree
 "Country Specific Credit Card Types","Länderspezifische Kreditkartentypen",module,Magento_Braintree
+"Allow to Edit Shipping Address Entered During Checkout on PayPal Side","Zulassen, dass die beim Checkout eingegebene Lieferadresse auf der PayPal-Seite geändert werden kann",module,Magento_Braintree
+"3D Secure Verification Settings",3D-Secure-Verifizierungseinstellungen,module,Magento_Braintree
+"3D Secure Verification",3D-Secure-Verifizierung,module,Magento_Braintree
 "Edit My Credit Cards","Meine Kreditkarten bearbeiten",module,Magento_Braintree
 "Enable CAPTCHA in Admin","CAPTCHA im Admin-Bereich aktivieren",module,Magento_Captcha
 Font,Schriftart,module,Magento_Captcha
