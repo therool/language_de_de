@@ -3013,11 +3013,14 @@ Environment,Umgebung,module,Magento_Braintree
 "Use Vault","Vault verwenden",module,Magento_Braintree
 "Allow Duplicate Cards","doppelte Karten ermöglichen",module,Magento_Braintree
 "Credit Card Types",Kreditkartentypen,module,Magento_Braintree
+"Advanced Fraud Protection","Erweiterter Betrugsschutz",module,Magento_Braintree
 "Your Kount ID","Ihre Kount-ID",module,Magento_Braintree
 "Use Cache","Cache verwenden",module,Magento_Braintree
 "Payment from Applicable Countries","Zahlung von bestimmten Ländern",module,Magento_Braintree
 "Payment from Specific Countries","Zahlung aus bestimmten Ländern",module,Magento_Braintree
 "Country Specific Credit Card Types","Länderspezifische Kreditkartentypen",module,Magento_Braintree
+"3D Secure Verification Settings",3D-Secure-Verifizierungseinstellungen,module,Magento_Braintree
+"3D Secure Verification",3D-Secure-Verifizierung,module,Magento_Braintree
 "Enable CAPTCHA in Admin","CAPTCHA im Admin-Bereich aktivieren",module,Magento_Captcha
 Font,Schriftart,module,Magento_Captcha
 Forms,Formulare,module,Magento_Captcha
