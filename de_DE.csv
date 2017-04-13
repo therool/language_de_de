@@ -769,6 +769,7 @@ Change,Ändern,module,Magento_Catalog
 "Create Category","Kategorie erstellen",module,Magento_Catalog
 "Category Name",Kategorie-Name,module,Magento_Catalog
 "Parent Category","Übergeordnete Kategorie",module,Magento_Catalog
+"Price Alert Subscriptions",Preisalarm-Abonnements,module,Magento_Catalog
 "There are no customers for this alert.","Es sind keine Kunden für diese Warnung vorhanden.",module,Magento_Catalog
 "First Name",Vorname,module,Magento_Catalog
 "Last Name",Nachname,module,Magento_Catalog
@@ -1005,6 +1006,7 @@ px.,aufklappen,module,Magento_Catalog
 "Not Visible Individually","Einzeln nicht sichtbar",module,Magento_Catalog
 Search,Suche,module,Magento_Catalog
 "Catalog, Search","Katalog, Suche",module,Magento_Catalog
+"Something went wrong while removing products from the websites.","Beim Entfernen von Produkten aus den Websites ist etwas schief gegangen.",module,Magento_Catalog
 "Product %1 doesn't have linked %2 as %3","Produkt %1 hat %2 nicht als %3 verknüpft",module,Magento_Catalog
 "Requested product doesn't exist","Angefordertes Produkt existiert nicht",module,Magento_Catalog
 "Requested product does not support images.","Angefordertes Produkt unterstützt keine Bilder.",module,Magento_Catalog
@@ -4329,6 +4331,8 @@ Size(bytes),"Größe (Bytes)",module,Magento_Backup
 Type,Art,module,Magento_Backup
 Download,Herunterladen,module,Magento_Backup
 Action,Aktion,module,Magento_Backup
+"Accept credit/debit cards and PayPal in your Magento store.<br/>No setup or monthly fees and your customers never leave your store to complete the purchase.","Akzeptieren Sie Kreditkarten und PayPal in Ihrem Magento-Shop!<br />Keine Einrichtungsgebühren oder laufende Kosten und Ihre Kunden müssen Ihren Shop nie verlassen, um einen Kauf abzuschließen.",module,Magento_Braintree
+"Basic Braintree Settings","Einfache Braintree-Einstellungen",module,Magento_Braintree
 Title,Titel,module,Magento_Braintree
 Environment,Umgebung,module,Magento_Braintree
 "Payment Action",Zahlungsvorgang,module,Magento_Braintree
@@ -4337,15 +4341,20 @@ Environment,Umgebung,module,Magento_Braintree
 "Private Key","Privater Schlüssel",module,Magento_Braintree
 "Advanced Braintree Settings","Erweiterte Braintree-Einstellungen",module,Magento_Braintree
 "Merchant Account ID",Händler-Konto-ID,module,Magento_Braintree
+"Advanced Fraud Protection","Erweiterter Betrugsschutz",module,Magento_Braintree
 "Credit Card Types",Kreditkartentypen,module,Magento_Braintree
 "Sort Order",Sortierreihenfolge,module,Magento_Braintree
 "Country Specific Settings","Länderspezifische Einstellungen",module,Magento_Braintree
 "Payment from Applicable Countries","Zahlung von bestimmten Ländern",module,Magento_Braintree
 "Payment from Specific Countries","Zahlung aus bestimmten Ländern",module,Magento_Braintree
 "Country Specific Credit Card Types","Länderspezifische Kreditkartentypen",module,Magento_Braintree
+"Allow to Edit Shipping Address Entered During Checkout on PayPal Side","Zulassen, dass die beim Checkout eingegebene Lieferadresse auf der PayPal-Seite geändert werden kann",module,Magento_Braintree
+"3D Secure Verification Settings",3D-Secure-Verifizierungseinstellungen,module,Magento_Braintree
+"3D Secure Verification",3D-Secure-Verifizierung,module,Magento_Braintree
 "Payment Type",Zahlungsart,module,Magento_Braintree
 "Created At","Erstellt am",module,Magento_Braintree
 Type,Art,module,Magento_Braintree
+Amount,Betrag,module,Magento_Braintree
 "Settlement Code",Verrechnungs-Code,module,Magento_Braintree
 "Settlement Response Text",Verrechnungsantwort-Text,module,Magento_Braintree
 "Settlement Batch ID",Verrechnungsschub-ID,module,Magento_Braintree
