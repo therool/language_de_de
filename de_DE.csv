@@ -647,6 +647,7 @@ Relevance,Relevanz,module,Magento_CatalogSearch
 Category,Kategorie,module,Magento_CatalogSearch
 "%1 and above","%1 und mehr",module,Magento_CatalogSearch
 "%1 - %2","%1 – %2",module,Magento_CatalogSearch
+"Sorry, something went wrong. You can find out more in the error log.","Entschuldigung, leider ist etwas schief gelaufen. Weitere Informationen finden Sie im Fehlerprotokoll.",module,Magento_CatalogSearch
 Product,Produkt,module,Magento_CatalogSearch
 "Search Settings",Sucheinstellungen,module,Magento_CatalogSearch
 Search,Suche,module,Magento_CatalogSearch
@@ -1426,11 +1427,17 @@ Summary,Zusammenfassung,module,Magento_ConfigurableProduct
 "Choose an Option...","Wählen Sie eine Option...",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products.","Dieses Attribut wird in konfigurierbaren Produkten verwendet.",module,Magento_ConfigurableProduct
 "Product has been already attached","Produkt wurde bereits angefügt",module,Magento_ConfigurableProduct
+"Parent product does not have configurable product options","Übergeordnetes Produkt hat keine konfigurierbaren Produktoptionen",module,Magento_ConfigurableProduct
 "Requested option doesn't exist: %1","Angeforderte Option existiert nicht",module,Magento_ConfigurableProduct
+"Cannot delete variations from product: %1","Variationen von Produkt %1 können nicht gelöscht werden",module,Magento_ConfigurableProduct
+"Cannot delete option with id: %1","Option mit id %1 kann nicht gelöscht werden",module,Magento_ConfigurableProduct
 "Option with id ""%1"" not found","Die Option mit der ID ""%1"" konnte nicht gefunden werden",module,Magento_ConfigurableProduct
 "Something went wrong while saving option.","Etwas ist beim Speichern der Option schiefgegangen.",module,Magento_ConfigurableProduct
+"Product with id ""%1"" does not contain required attribute ""%2"".","Produkt mit Id ""%1"" enthält kein das erforderliche Attribut ""%2"" nicht.",module,Magento_ConfigurableProduct
+"Products ""%1"" and ""%2"" have the same set of attribute values.","Produkte ""%1"" und %2 haben den gleichen Satz von Attributwerten.",module,Magento_ConfigurableProduct
 "You can't add the item to shopping cart.","Sie können dieses Produkt nicht dem Warenkorb hinzufügen.",module,Magento_ConfigurableProduct
 "You need to choose options for your item.","Sie müssen eine Optionen für Ihren Artikel wählen.",module,Magento_ConfigurableProduct
+"Some product variations fields are not valid.","Einige Felder der Produktvariationen sind ungültig.",module,Magento_ConfigurableProduct
 Confirm,Bestätigen,module,Magento_ConfigurableProduct
 Done,Fertig,module,Magento_ConfigurableProduct
 "Add Products Manually","Produkt manuell hinzufügen",module,Magento_ConfigurableProduct
@@ -1470,6 +1477,8 @@ Select,Auswählen,module,Magento_ConfigurableProduct
 "Step 1: Select Attributes","Schritt 1: Wählen Sie die Attribute",module,Magento_ConfigurableProduct
 "Selected Attributes:","Ausgewählte Attribute:",module,Magento_ConfigurableProduct
 "Step 4: Summary","Schritt 4: Zusammenfassung",module,Magento_ConfigurableProduct
+"Configurable products allow customers to choose options (Ex: shirt color).
+            You need to create a simple product for each configuration (Ex: a product for each color).","Konfigurierbare Produkte erlauben es Kunden, Optionen auswählen (z. B.: Shirt-Farbe). Sie müssen ein einfaches Produkt für jede Konfiguration erstellen (z. B.: ein Produkt für jede Farbe).",module,Magento_ConfigurableProduct
 "Edit Configurations","Konfigurationen bearbeiten",module,Magento_ConfigurableProduct
 "Upload Image","Bild hochladen",module,Magento_ConfigurableProduct
 "Upload image","Bild hochladen",module,Magento_ConfigurableProduct
@@ -1478,6 +1487,8 @@ Select,Auswählen,module,Magento_ConfigurableProduct
 "Remove Product","Produkt entfernen",module,Magento_ConfigurableProduct
 "Create Product Configurations","Produkt-Konfigurationen erstellen",module,Magento_ConfigurableProduct
 Cancel,Speichern,module,Magento_ConfigurableProduct
+"Special Price",Sonderpreis,module,Magento_ConfigurableProduct
+"Regular Price","Regulärer Preis",module,Magento_ConfigurableProduct
 "Page not found.","Seite nicht gefunden.",module,Magento_Contact
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Sende E-Mails an",module,Magento_Contact
 "We can't process your request right now. Sorry, that's all we know.","Der Prozess kann momentan nicht verarbeitet werden müssen. Entschuldigen Sie, das sind alle Informationen, die wir haben.",module,Magento_Contact
@@ -4112,6 +4123,8 @@ Added,Hinzugefügt,module,Magento_Catalog
 Shipping,Versand,module,Magento_Checkout
 "Save Address","Adresse speichern",module,Magento_Checkout
 "New Product Review","Neue Produktbewertung",module,Magento_ConfigurableProduct
+"Disable Product","Produkt deaktivieren",module,Magento_ConfigurableProduct
+"Enable Product","Produkt aktivieren",module,Magento_ConfigurableProduct
 "Incl. Tax","Inkl. Steuern",module,Magento_ConfigurableProduct
 "An attribute has been removed. This attribute will no longer appear in your configurations.","Ein Attribut wurde entfernt. Dieses Attribut wird nicht mehr in Ihrer Konfiguration angezeigt.",module,Magento_ConfigurableProduct
 "Generate Products","Produkte generieren",module,Magento_ConfigurableProduct
