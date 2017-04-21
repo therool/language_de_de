@@ -1060,6 +1060,7 @@ Configuration,Konfiguration,module,Magento_Config
 "New attribute set name","Neuer Attribute-Set Name",module,Magento_ConfigurableProduct
 "Choose an Option...","Wählen Sie eine Option...",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products.","Dieses Attribut wird in konfigurierbaren Produkten verwendet.",module,Magento_ConfigurableProduct
+"Some product variations fields are not valid.","Einige Felder der Produktvariationen sind ungültig.",module,Magento_ConfigurableProduct
 "Associated Products","Verknüpfte Produkte",module,Magento_ConfigurableProduct
 "Sort Variations","Variationen sortieren",module,Magento_ConfigurableProduct
 Select,Auswählen,module,Magento_ConfigurableProduct
