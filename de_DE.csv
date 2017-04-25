@@ -4004,6 +4004,7 @@ Login,Anmelden,module,Magento_Checkout
 item,Artikel,module,Magento_Checkout
 items,Artikel,module,Magento_Checkout
 "Go to Checkout","Zur Kasse gehen",module,Magento_Checkout
+"View and edit cart","Warenkorb anzeigen und bearbeiten",module,Magento_Checkout
 "See Details","Details anzeigen",module,Magento_Checkout
 Remove,Entfernen,module,Magento_Checkout
 "Payment Information",Zahlungsinformation,module,Magento_Checkout
