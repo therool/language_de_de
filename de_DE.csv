@@ -4025,6 +4025,7 @@ edit,bearbeiten,module,Magento_Checkout
 Next,Weiter,module,Magento_Checkout
 "Order Summary",Bestellübersicht,module,Magento_Checkout
 "Item in Cart","Artikel im Warenkorb",module,Magento_Checkout
+"Items in Cart","Artikel im Warenkorb",module,Magento_Checkout
 "View Details","Details anzeigen",module,Magento_Checkout
 "Contact Form",Kontaktformular,module,Magento_Contact
 "Phone Number: %telephone","Telefonnummer: %telephone",module,Magento_Contact
